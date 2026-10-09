@@ -1,0 +1,194 @@
+{
+  "counterexamples": [
+    {
+      "choices": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "reason": "require:moving"
+    },
+    {
+      "choices": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "reason": "require:moving"
+    },
+    {
+      "choices": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "reason": "require:moving"
+    },
+    {
+      "choices": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "reason": "require:moving"
+    },
+    {
+      "choices": [
+        0,
+        0,
+        2,
+        1
+      ],
+      "reason": "require:moving"
+    },
+    {
+      "choices": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "reason": "require:moving"
+    },
+    {
+      "choices": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "reason": "require:moving"
+    },
+    {
+      "choices": [
+        0,
+        1,
+        0,
+        2
+      ],
+      "reason": "require:moving"
+    },
+    {
+      "choices": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "reason": "require:moving"
+    },
+    {
+      "choices": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "reason": "require:moving"
+    },
+    {
+      "choices": [
+        0,
+        1,
+        1,
+        2
+      ],
+      "reason": "require:moving"
+    },
+    {
+      "choices": [
+        0,
+        1,
+        2,
+        0
+      ],
+      "reason": "require:moving"
+    },
+    {
+      "choices": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "reason": "require:moving"
+    },
+    {
+      "choices": [
+        0,
+        1,
+        2,
+        2
+      ],
+      "reason": "require:moving"
+    },
+    {
+      "choices": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "reason": "require:moving"
+    },
+    {
+      "choices": [
+        0,
+        2,
+        1,
+        0
+      ],
+      "reason": "require:moving"
+    },
+    {
+      "choices": [
+        0,
+        2,
+        1,
+        1
+      ],
+      "reason": "require:moving"
+    },
+    {
+      "choices": [
+        0,
+        2,
+        1,
+        2
+      ],
+      "reason": "require:moving"
+    },
+    {
+      "choices": [
+        0,
+        2,
+        2,
+        1
+      ],
+      "reason": "require:moving"
+    },
+    {
+      "choices": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "reason": "require:moving"
+    }
+  ],
+  "depth": 4,
+  "format": "equilibrium.exploration/1",
+  "general_safety_proof": false,
+  "outcomes": {
+    "allowed": 8,
+    "idle": 8,
+    "require:moving": 65
+  },
+  "runs": 81,
+  "scope": "finite synthetic input enumeration"
+}

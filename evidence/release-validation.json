@@ -1,0 +1,9 @@
+{
+  "source_distribution_extracted_gate_passed": true,
+  "tests_run": 156,
+  "wheel_install_and_replay_passed": true,
+  "package_hashes": {
+    "ix_equilibrium-0.1.0-py3-none-any.whl": "35737ec29191a8214221ec33df81f3b744dc1086ea816398ba485949ba0d6dae",
+    "ix_equilibrium-0.1.0.tar.gz": "c3143ee54be71e041a847c2de91c927b7f9b4f10c425facdbc6b8735a0bca932"
+  }
+}

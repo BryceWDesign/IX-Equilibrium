@@ -1,0 +1,130 @@
+{
+  "choices": [
+    [
+      {
+        "at_ms": 0,
+        "channel": "vision",
+        "sequence": 0,
+        "uncertainty": "0.01",
+        "unit": "m",
+        "value": "0.7"
+      },
+      {
+        "at_ms": 0,
+        "channel": "proximity",
+        "sequence": 0,
+        "uncertainty": "0.01",
+        "unit": "m",
+        "value": "0.7"
+      },
+      {
+        "at_ms": 0,
+        "channel": "tactile",
+        "sequence": 0,
+        "uncertainty": "0.01",
+        "unit": "m",
+        "value": "0.7"
+      },
+      {
+        "at_ms": 0,
+        "channel": "load",
+        "sequence": 0,
+        "uncertainty": "0.1",
+        "unit": "N",
+        "value": "1"
+      },
+      {
+        "at_ms": 0,
+        "channel": "intent",
+        "sequence": 0,
+        "uncertainty": "0",
+        "unit": "bool",
+        "value": true
+      }
+    ],
+    [
+      {
+        "at_ms": 0,
+        "channel": "vision",
+        "sequence": 0,
+        "uncertainty": "0.01",
+        "unit": "m",
+        "value": "0.19"
+      },
+      {
+        "at_ms": 0,
+        "channel": "proximity",
+        "sequence": 0,
+        "uncertainty": "0.01",
+        "unit": "m",
+        "value": "0.19"
+      },
+      {
+        "at_ms": 0,
+        "channel": "tactile",
+        "sequence": 0,
+        "uncertainty": "0.01",
+        "unit": "m",
+        "value": "0.19"
+      },
+      {
+        "at_ms": 0,
+        "channel": "load",
+        "sequence": 0,
+        "uncertainty": "0.1",
+        "unit": "N",
+        "value": "1"
+      },
+      {
+        "at_ms": 0,
+        "channel": "intent",
+        "sequence": 0,
+        "uncertainty": "0",
+        "unit": "bool",
+        "value": true
+      }
+    ],
+    [
+      {
+        "at_ms": 0,
+        "channel": "vision",
+        "sequence": 0,
+        "uncertainty": "0.01",
+        "unit": "m",
+        "value": "0.7"
+      },
+      {
+        "at_ms": 0,
+        "channel": "proximity",
+        "sequence": 0,
+        "uncertainty": "0.01",
+        "unit": "m",
+        "value": "0.7"
+      },
+      {
+        "at_ms": 0,
+        "channel": "tactile",
+        "sequence": 0,
+        "uncertainty": "0.01",
+        "unit": "m",
+        "value": "0.7"
+      },
+      {
+        "at_ms": 0,
+        "channel": "load",
+        "sequence": 0,
+        "uncertainty": "0.1",
+        "unit": "N",
+        "value": "1"
+      },
+      {
+        "at_ms": 0,
+        "channel": "intent",
+        "sequence": 0,
+        "uncertainty": "0",
+        "unit": "bool",
+        "value": false
+      }
+    ]
+  ]
+}

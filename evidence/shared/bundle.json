@@ -1,0 +1,2244 @@
+{
+  "authority_mode": "synthetic_simulation_only",
+  "bundle_sha256": "66cbd1732ddf8a30a29223f9e8665f3ebab32ec85de7defbe35da766562e9932",
+  "evidence": {
+    "format": "equilibrium.evidence/1",
+    "head": "0081b17707b1cf60fe35a91aaa657b35751b03866ad904ba2aebda2d0ff490b3",
+    "records": [
+      {
+        "payload": {
+          "action": {
+            "at_ms": 0,
+            "outputs": {
+              "left": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.02"
+              },
+              "right": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.02"
+              }
+            },
+            "session": "simulation-ef00dac28f5386ac2218",
+            "source_sha256": "ae8a9febbc38768a436ddd3344f136157e288e7b99c24f72233f50048a4eb3f3",
+            "state": "motion",
+            "tick": 0
+          },
+          "action_sha256": "86a715ac63b015ad533430bee2f1d77a0362b620d0a8d760b8fa04337574d901",
+          "authority": {
+            "grant_nonce": "synthetic-grant",
+            "principal": "synthetic-operator",
+            "reviewer": "synthetic-reviewer"
+          },
+          "authorized": true,
+          "diagnostics": {},
+          "kind": "decision",
+          "reason": "allowed"
+        },
+        "previous": "0000000000000000000000000000000000000000000000000000000000000000",
+        "sequence": 1,
+        "sha256": "a1a0ccb492fce302cbefa16cd7a8a56c0e853655ecb4c497f026f9443149f422"
+      },
+      {
+        "payload": {
+          "action_sha256": "86a715ac63b015ad533430bee2f1d77a0362b620d0a8d760b8fa04337574d901",
+          "kind": "outcome",
+          "observation": {
+            "positions_m": {
+              "left": "0.0002",
+              "right": "0.0002"
+            },
+            "setpoints": {
+              "left": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.02"
+              },
+              "right": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.02"
+              }
+            }
+          },
+          "status": "observed"
+        },
+        "previous": "a1a0ccb492fce302cbefa16cd7a8a56c0e853655ecb4c497f026f9443149f422",
+        "sequence": 2,
+        "sha256": "a99135db19ca8a21999b94003b2176c07502b8d94868f1c028c65576c54f1007"
+      },
+      {
+        "payload": {
+          "action": {
+            "at_ms": 10,
+            "outputs": {
+              "left": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.04"
+              },
+              "right": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.04"
+              }
+            },
+            "session": "simulation-ef00dac28f5386ac2218",
+            "source_sha256": "ae8a9febbc38768a436ddd3344f136157e288e7b99c24f72233f50048a4eb3f3",
+            "state": "motion",
+            "tick": 1
+          },
+          "action_sha256": "7f71800e4e46ab9d5967feb803642784f2b1a9c2e50ddd7b560c15dccb7e9228",
+          "authority": {
+            "grant_nonce": "synthetic-grant",
+            "principal": "synthetic-operator",
+            "reviewer": "synthetic-reviewer"
+          },
+          "authorized": true,
+          "diagnostics": {},
+          "kind": "decision",
+          "reason": "allowed"
+        },
+        "previous": "a99135db19ca8a21999b94003b2176c07502b8d94868f1c028c65576c54f1007",
+        "sequence": 3,
+        "sha256": "24936af78b224f86b1f83a4aeba0393c1143491bdbf5983fefebe5989d906940"
+      },
+      {
+        "payload": {
+          "action_sha256": "7f71800e4e46ab9d5967feb803642784f2b1a9c2e50ddd7b560c15dccb7e9228",
+          "kind": "outcome",
+          "observation": {
+            "positions_m": {
+              "left": "0.0006",
+              "right": "0.0006"
+            },
+            "setpoints": {
+              "left": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.04"
+              },
+              "right": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.04"
+              }
+            }
+          },
+          "status": "observed"
+        },
+        "previous": "24936af78b224f86b1f83a4aeba0393c1143491bdbf5983fefebe5989d906940",
+        "sequence": 4,
+        "sha256": "99eca8eb21ca26f7e4626af00c8eda0e1371e066798a7976cf8d86e1aa449204"
+      },
+      {
+        "payload": {
+          "action": {
+            "at_ms": 20,
+            "outputs": {
+              "left": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.06"
+              },
+              "right": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.06"
+              }
+            },
+            "session": "simulation-ef00dac28f5386ac2218",
+            "source_sha256": "ae8a9febbc38768a436ddd3344f136157e288e7b99c24f72233f50048a4eb3f3",
+            "state": "motion",
+            "tick": 2
+          },
+          "action_sha256": "4b6592584bae2bfce08c7206d5ab253c0836cfc4096b2a6399d0dd5323a085a9",
+          "authority": {
+            "grant_nonce": "synthetic-grant",
+            "principal": "synthetic-operator",
+            "reviewer": "synthetic-reviewer"
+          },
+          "authorized": true,
+          "diagnostics": {},
+          "kind": "decision",
+          "reason": "allowed"
+        },
+        "previous": "99eca8eb21ca26f7e4626af00c8eda0e1371e066798a7976cf8d86e1aa449204",
+        "sequence": 5,
+        "sha256": "a51d480144df9454de43135ae39a075742e0c51a4e4a32e93bd4e05c2f731b22"
+      },
+      {
+        "payload": {
+          "action_sha256": "4b6592584bae2bfce08c7206d5ab253c0836cfc4096b2a6399d0dd5323a085a9",
+          "kind": "outcome",
+          "observation": {
+            "positions_m": {
+              "left": "0.0012",
+              "right": "0.0012"
+            },
+            "setpoints": {
+              "left": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.06"
+              },
+              "right": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.06"
+              }
+            }
+          },
+          "status": "observed"
+        },
+        "previous": "a51d480144df9454de43135ae39a075742e0c51a4e4a32e93bd4e05c2f731b22",
+        "sequence": 6,
+        "sha256": "5b41a1b88bd45afdfbed43c8a79784a2fcabacb03783db1b09f32b928ea9e28a"
+      },
+      {
+        "payload": {
+          "action": {
+            "at_ms": 30,
+            "outputs": {
+              "left": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              },
+              "right": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              }
+            },
+            "session": "simulation-ef00dac28f5386ac2218",
+            "source_sha256": "ae8a9febbc38768a436ddd3344f136157e288e7b99c24f72233f50048a4eb3f3",
+            "state": "motion",
+            "tick": 3
+          },
+          "action_sha256": "a263b5b0cf46d818c24293e366981c4a2ca0792576f3a50f2f803ded5af705f6",
+          "authority": {
+            "grant_nonce": "synthetic-grant",
+            "principal": "synthetic-operator",
+            "reviewer": "synthetic-reviewer"
+          },
+          "authorized": true,
+          "diagnostics": {},
+          "kind": "decision",
+          "reason": "allowed"
+        },
+        "previous": "5b41a1b88bd45afdfbed43c8a79784a2fcabacb03783db1b09f32b928ea9e28a",
+        "sequence": 7,
+        "sha256": "401b90b8ae7b9eda68b69be02e38177eeade993512a68a911a243f836452563a"
+      },
+      {
+        "payload": {
+          "action_sha256": "a263b5b0cf46d818c24293e366981c4a2ca0792576f3a50f2f803ded5af705f6",
+          "kind": "outcome",
+          "observation": {
+            "positions_m": {
+              "left": "0.002",
+              "right": "0.002"
+            },
+            "setpoints": {
+              "left": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              },
+              "right": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              }
+            }
+          },
+          "status": "observed"
+        },
+        "previous": "401b90b8ae7b9eda68b69be02e38177eeade993512a68a911a243f836452563a",
+        "sequence": 8,
+        "sha256": "e2c886bc7073a82fa493c01cad681435ba341ad3b2ad01343c5d68bef91f91f0"
+      },
+      {
+        "payload": {
+          "action": {
+            "at_ms": 40,
+            "outputs": {
+              "left": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              },
+              "right": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              }
+            },
+            "session": "simulation-ef00dac28f5386ac2218",
+            "source_sha256": "ae8a9febbc38768a436ddd3344f136157e288e7b99c24f72233f50048a4eb3f3",
+            "state": "motion",
+            "tick": 4
+          },
+          "action_sha256": "4d02cf60ca059c979ce6b562b684a34dbd7ee8d2e64009d7a42bd8154d56a21a",
+          "authority": {
+            "grant_nonce": "synthetic-grant",
+            "principal": "synthetic-operator",
+            "reviewer": "synthetic-reviewer"
+          },
+          "authorized": true,
+          "diagnostics": {},
+          "kind": "decision",
+          "reason": "allowed"
+        },
+        "previous": "e2c886bc7073a82fa493c01cad681435ba341ad3b2ad01343c5d68bef91f91f0",
+        "sequence": 9,
+        "sha256": "fd04292ffc9e8adb23ee4bd28e8132d76de6f40402cf86ccc5cd34e985849803"
+      },
+      {
+        "payload": {
+          "action_sha256": "4d02cf60ca059c979ce6b562b684a34dbd7ee8d2e64009d7a42bd8154d56a21a",
+          "kind": "outcome",
+          "observation": {
+            "positions_m": {
+              "left": "0.0028",
+              "right": "0.0028"
+            },
+            "setpoints": {
+              "left": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              },
+              "right": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              }
+            }
+          },
+          "status": "observed"
+        },
+        "previous": "fd04292ffc9e8adb23ee4bd28e8132d76de6f40402cf86ccc5cd34e985849803",
+        "sequence": 10,
+        "sha256": "4acd29c869b46a3e05242aca4f6339c43f4ddb6898e6f1db2b7882176d6c1082"
+      },
+      {
+        "payload": {
+          "action": {
+            "at_ms": 50,
+            "outputs": {
+              "left": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              },
+              "right": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              }
+            },
+            "session": "simulation-ef00dac28f5386ac2218",
+            "source_sha256": "ae8a9febbc38768a436ddd3344f136157e288e7b99c24f72233f50048a4eb3f3",
+            "state": "motion",
+            "tick": 5
+          },
+          "action_sha256": "714c4258a03abb71dae94c35d95e9903ce67b48d987805923069f9a2a0d6a374",
+          "authority": {
+            "grant_nonce": "synthetic-grant",
+            "principal": "synthetic-operator",
+            "reviewer": "synthetic-reviewer"
+          },
+          "authorized": true,
+          "diagnostics": {},
+          "kind": "decision",
+          "reason": "allowed"
+        },
+        "previous": "4acd29c869b46a3e05242aca4f6339c43f4ddb6898e6f1db2b7882176d6c1082",
+        "sequence": 11,
+        "sha256": "e5c6ad5ffd420c81312b6871aca82ca78a8566dc0bfbdece32a4565cf4677927"
+      },
+      {
+        "payload": {
+          "action_sha256": "714c4258a03abb71dae94c35d95e9903ce67b48d987805923069f9a2a0d6a374",
+          "kind": "outcome",
+          "observation": {
+            "positions_m": {
+              "left": "0.0036",
+              "right": "0.0036"
+            },
+            "setpoints": {
+              "left": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              },
+              "right": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              }
+            }
+          },
+          "status": "observed"
+        },
+        "previous": "e5c6ad5ffd420c81312b6871aca82ca78a8566dc0bfbdece32a4565cf4677927",
+        "sequence": 12,
+        "sha256": "8b2b5fc96f7995a7d7a64c954f8012271fab87afba9b251298ddbd016f7cb95f"
+      },
+      {
+        "payload": {
+          "action": {
+            "at_ms": 60,
+            "outputs": {
+              "left": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              },
+              "right": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              }
+            },
+            "session": "simulation-ef00dac28f5386ac2218",
+            "source_sha256": "ae8a9febbc38768a436ddd3344f136157e288e7b99c24f72233f50048a4eb3f3",
+            "state": "motion",
+            "tick": 6
+          },
+          "action_sha256": "1e6ce979ca2aa455bc394f247a3c4c58d22d9952a56f969307bce7a2a37b7fb5",
+          "authority": {
+            "grant_nonce": "synthetic-grant",
+            "principal": "synthetic-operator",
+            "reviewer": "synthetic-reviewer"
+          },
+          "authorized": true,
+          "diagnostics": {},
+          "kind": "decision",
+          "reason": "allowed"
+        },
+        "previous": "8b2b5fc96f7995a7d7a64c954f8012271fab87afba9b251298ddbd016f7cb95f",
+        "sequence": 13,
+        "sha256": "1afbb0f805b232cd125c1d2cb068220e53658c87ff6380af9b047214e3fb7464"
+      },
+      {
+        "payload": {
+          "action_sha256": "1e6ce979ca2aa455bc394f247a3c4c58d22d9952a56f969307bce7a2a37b7fb5",
+          "kind": "outcome",
+          "observation": {
+            "positions_m": {
+              "left": "0.0044",
+              "right": "0.0044"
+            },
+            "setpoints": {
+              "left": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              },
+              "right": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              }
+            }
+          },
+          "status": "observed"
+        },
+        "previous": "1afbb0f805b232cd125c1d2cb068220e53658c87ff6380af9b047214e3fb7464",
+        "sequence": 14,
+        "sha256": "3c722e6dbaac474a3359211352bf779c734cc23eede3b067268d9094c6775107"
+      },
+      {
+        "payload": {
+          "action": {
+            "at_ms": 70,
+            "outputs": {
+              "left": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              },
+              "right": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              }
+            },
+            "session": "simulation-ef00dac28f5386ac2218",
+            "source_sha256": "ae8a9febbc38768a436ddd3344f136157e288e7b99c24f72233f50048a4eb3f3",
+            "state": "motion",
+            "tick": 7
+          },
+          "action_sha256": "344bd0be44bc2e98915a512067f7794ba9bd881f4389a7b4f0c600aa0f227e09",
+          "authority": {
+            "grant_nonce": "synthetic-grant",
+            "principal": "synthetic-operator",
+            "reviewer": "synthetic-reviewer"
+          },
+          "authorized": true,
+          "diagnostics": {},
+          "kind": "decision",
+          "reason": "allowed"
+        },
+        "previous": "3c722e6dbaac474a3359211352bf779c734cc23eede3b067268d9094c6775107",
+        "sequence": 15,
+        "sha256": "e7c5723a88b570a0aac89a115310d6d34368b1e70e3ea7217304d01867b9d938"
+      },
+      {
+        "payload": {
+          "action_sha256": "344bd0be44bc2e98915a512067f7794ba9bd881f4389a7b4f0c600aa0f227e09",
+          "kind": "outcome",
+          "observation": {
+            "positions_m": {
+              "left": "0.0052",
+              "right": "0.0052"
+            },
+            "setpoints": {
+              "left": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              },
+              "right": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              }
+            }
+          },
+          "status": "observed"
+        },
+        "previous": "e7c5723a88b570a0aac89a115310d6d34368b1e70e3ea7217304d01867b9d938",
+        "sequence": 16,
+        "sha256": "dd615861de900618b68b8fe0638f929527dfc5d779ced266b7e5e2624f0b3446"
+      },
+      {
+        "payload": {
+          "action": {
+            "at_ms": 80,
+            "outputs": {
+              "left": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              },
+              "right": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              }
+            },
+            "session": "simulation-ef00dac28f5386ac2218",
+            "source_sha256": "ae8a9febbc38768a436ddd3344f136157e288e7b99c24f72233f50048a4eb3f3",
+            "state": "motion",
+            "tick": 8
+          },
+          "action_sha256": "84f101d3fb950d52c36490d8f057a343ec6f922f812cfcdb549eee844d1264bf",
+          "authority": {
+            "grant_nonce": "synthetic-grant",
+            "principal": "synthetic-operator",
+            "reviewer": "synthetic-reviewer"
+          },
+          "authorized": true,
+          "diagnostics": {},
+          "kind": "decision",
+          "reason": "allowed"
+        },
+        "previous": "dd615861de900618b68b8fe0638f929527dfc5d779ced266b7e5e2624f0b3446",
+        "sequence": 17,
+        "sha256": "4b1666f06496077cdf8fe67e0f8bf642e94d1756f11afef082c754eff1b01f71"
+      },
+      {
+        "payload": {
+          "action_sha256": "84f101d3fb950d52c36490d8f057a343ec6f922f812cfcdb549eee844d1264bf",
+          "kind": "outcome",
+          "observation": {
+            "positions_m": {
+              "left": "0.006",
+              "right": "0.006"
+            },
+            "setpoints": {
+              "left": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              },
+              "right": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              }
+            }
+          },
+          "status": "observed"
+        },
+        "previous": "4b1666f06496077cdf8fe67e0f8bf642e94d1756f11afef082c754eff1b01f71",
+        "sequence": 18,
+        "sha256": "126af1d7bd2f8e043d5ebbf0c1a373fa9cd81cd67b2edbb5c20cc64d130ae2d5"
+      },
+      {
+        "payload": {
+          "action": {
+            "at_ms": 90,
+            "outputs": {
+              "left": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              },
+              "right": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              }
+            },
+            "session": "simulation-ef00dac28f5386ac2218",
+            "source_sha256": "ae8a9febbc38768a436ddd3344f136157e288e7b99c24f72233f50048a4eb3f3",
+            "state": "motion",
+            "tick": 9
+          },
+          "action_sha256": "589b22ec586e4e03757c78297efa03fefc0356e1b99b327d2cd98a27253b2248",
+          "authority": {
+            "grant_nonce": "synthetic-grant",
+            "principal": "synthetic-operator",
+            "reviewer": "synthetic-reviewer"
+          },
+          "authorized": true,
+          "diagnostics": {},
+          "kind": "decision",
+          "reason": "allowed"
+        },
+        "previous": "126af1d7bd2f8e043d5ebbf0c1a373fa9cd81cd67b2edbb5c20cc64d130ae2d5",
+        "sequence": 19,
+        "sha256": "e739f1d02d55585bfc156b5f26a3d0698b383bdeaa0405bc85638dea6be5fc18"
+      },
+      {
+        "payload": {
+          "action_sha256": "589b22ec586e4e03757c78297efa03fefc0356e1b99b327d2cd98a27253b2248",
+          "kind": "outcome",
+          "observation": {
+            "positions_m": {
+              "left": "0.0068",
+              "right": "0.0068"
+            },
+            "setpoints": {
+              "left": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              },
+              "right": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              }
+            }
+          },
+          "status": "observed"
+        },
+        "previous": "e739f1d02d55585bfc156b5f26a3d0698b383bdeaa0405bc85638dea6be5fc18",
+        "sequence": 20,
+        "sha256": "413408cc3c2fd9343ab7a5cfcba682f9d5c24da8b457336de9f592fa300f75bc"
+      },
+      {
+        "payload": {
+          "action": {
+            "at_ms": 100,
+            "outputs": {
+              "left": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              },
+              "right": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              }
+            },
+            "session": "simulation-ef00dac28f5386ac2218",
+            "source_sha256": "ae8a9febbc38768a436ddd3344f136157e288e7b99c24f72233f50048a4eb3f3",
+            "state": "motion",
+            "tick": 10
+          },
+          "action_sha256": "9ef971750ebae1a36dfba68081fcc54a817615647c06419f420c51df189bbdc4",
+          "authority": {
+            "grant_nonce": "synthetic-grant",
+            "principal": "synthetic-operator",
+            "reviewer": "synthetic-reviewer"
+          },
+          "authorized": true,
+          "diagnostics": {},
+          "kind": "decision",
+          "reason": "allowed"
+        },
+        "previous": "413408cc3c2fd9343ab7a5cfcba682f9d5c24da8b457336de9f592fa300f75bc",
+        "sequence": 21,
+        "sha256": "42229368fb65b39991b565a5d0f4d69bf9fd688f680243748dee8424274c1315"
+      },
+      {
+        "payload": {
+          "action_sha256": "9ef971750ebae1a36dfba68081fcc54a817615647c06419f420c51df189bbdc4",
+          "kind": "outcome",
+          "observation": {
+            "positions_m": {
+              "left": "0.0076",
+              "right": "0.0076"
+            },
+            "setpoints": {
+              "left": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              },
+              "right": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              }
+            }
+          },
+          "status": "observed"
+        },
+        "previous": "42229368fb65b39991b565a5d0f4d69bf9fd688f680243748dee8424274c1315",
+        "sequence": 22,
+        "sha256": "2953595a4a207f37fe0e44462674feae677df657bfbf5aadcf1fe30017ae7ec5"
+      },
+      {
+        "payload": {
+          "action": {
+            "at_ms": 110,
+            "outputs": {
+              "left": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              },
+              "right": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              }
+            },
+            "session": "simulation-ef00dac28f5386ac2218",
+            "source_sha256": "ae8a9febbc38768a436ddd3344f136157e288e7b99c24f72233f50048a4eb3f3",
+            "state": "motion",
+            "tick": 11
+          },
+          "action_sha256": "06f4c23091186149a14f51f4a2bcc61a6012671deabb6ed6d4c7756856864e27",
+          "authority": {
+            "grant_nonce": "synthetic-grant",
+            "principal": "synthetic-operator",
+            "reviewer": "synthetic-reviewer"
+          },
+          "authorized": true,
+          "diagnostics": {},
+          "kind": "decision",
+          "reason": "allowed"
+        },
+        "previous": "2953595a4a207f37fe0e44462674feae677df657bfbf5aadcf1fe30017ae7ec5",
+        "sequence": 23,
+        "sha256": "38dd0a0d527e477c5980ffdc90af1de1f212280a0cd0419cd1a6005e07d45368"
+      },
+      {
+        "payload": {
+          "action_sha256": "06f4c23091186149a14f51f4a2bcc61a6012671deabb6ed6d4c7756856864e27",
+          "kind": "outcome",
+          "observation": {
+            "positions_m": {
+              "left": "0.0084",
+              "right": "0.0084"
+            },
+            "setpoints": {
+              "left": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              },
+              "right": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              }
+            }
+          },
+          "status": "observed"
+        },
+        "previous": "38dd0a0d527e477c5980ffdc90af1de1f212280a0cd0419cd1a6005e07d45368",
+        "sequence": 24,
+        "sha256": "0081b17707b1cf60fe35a91aaa657b35751b03866ad904ba2aebda2d0ff490b3"
+      }
+    ]
+  },
+  "final": {
+    "adapter_calls": 12,
+    "halted": false,
+    "observation": {
+      "positions_m": {
+        "left": "0.0084",
+        "right": "0.0084"
+      },
+      "setpoints": {
+        "left": {
+          "dimension": [
+            1,
+            0,
+            -1,
+            0
+          ],
+          "value": "0.08"
+        },
+        "right": {
+          "dimension": [
+            1,
+            0,
+            -1,
+            0
+          ],
+          "value": "0.08"
+        }
+      }
+    },
+    "state": "motion",
+    "stop_requests": 0
+  },
+  "format": "equilibrium.simulation/1",
+  "scenario": {
+    "events": [
+      {
+        "at_ms": 0,
+        "samples": [
+          {
+            "at_ms": 0,
+            "channel": "operator",
+            "sequence": 0,
+            "uncertainty": "0",
+            "unit": "bool",
+            "value": true
+          },
+          {
+            "at_ms": 0,
+            "channel": "requested",
+            "sequence": 0,
+            "uncertainty": "0",
+            "unit": "mps",
+            "value": "0.08"
+          },
+          {
+            "at_ms": 0,
+            "channel": "distance",
+            "sequence": 0,
+            "uncertainty": "0",
+            "unit": "m",
+            "value": "0.8"
+          }
+        ],
+        "simulation_grant": true,
+        "simulation_review": true
+      },
+      {
+        "at_ms": 10,
+        "samples": [
+          {
+            "at_ms": 10,
+            "channel": "operator",
+            "sequence": 1,
+            "uncertainty": "0",
+            "unit": "bool",
+            "value": true
+          },
+          {
+            "at_ms": 10,
+            "channel": "requested",
+            "sequence": 1,
+            "uncertainty": "0",
+            "unit": "mps",
+            "value": "0.08"
+          },
+          {
+            "at_ms": 10,
+            "channel": "distance",
+            "sequence": 1,
+            "uncertainty": "0",
+            "unit": "m",
+            "value": "0.8"
+          }
+        ],
+        "simulation_grant": true,
+        "simulation_review": true
+      },
+      {
+        "at_ms": 20,
+        "samples": [
+          {
+            "at_ms": 20,
+            "channel": "operator",
+            "sequence": 2,
+            "uncertainty": "0",
+            "unit": "bool",
+            "value": true
+          },
+          {
+            "at_ms": 20,
+            "channel": "requested",
+            "sequence": 2,
+            "uncertainty": "0",
+            "unit": "mps",
+            "value": "0.08"
+          },
+          {
+            "at_ms": 20,
+            "channel": "distance",
+            "sequence": 2,
+            "uncertainty": "0",
+            "unit": "m",
+            "value": "0.8"
+          }
+        ],
+        "simulation_grant": true,
+        "simulation_review": true
+      },
+      {
+        "at_ms": 30,
+        "samples": [
+          {
+            "at_ms": 30,
+            "channel": "operator",
+            "sequence": 3,
+            "uncertainty": "0",
+            "unit": "bool",
+            "value": true
+          },
+          {
+            "at_ms": 30,
+            "channel": "requested",
+            "sequence": 3,
+            "uncertainty": "0",
+            "unit": "mps",
+            "value": "0.08"
+          },
+          {
+            "at_ms": 30,
+            "channel": "distance",
+            "sequence": 3,
+            "uncertainty": "0",
+            "unit": "m",
+            "value": "0.8"
+          }
+        ],
+        "simulation_grant": true,
+        "simulation_review": true
+      },
+      {
+        "at_ms": 40,
+        "samples": [
+          {
+            "at_ms": 40,
+            "channel": "operator",
+            "sequence": 4,
+            "uncertainty": "0",
+            "unit": "bool",
+            "value": true
+          },
+          {
+            "at_ms": 40,
+            "channel": "requested",
+            "sequence": 4,
+            "uncertainty": "0",
+            "unit": "mps",
+            "value": "0.08"
+          },
+          {
+            "at_ms": 40,
+            "channel": "distance",
+            "sequence": 4,
+            "uncertainty": "0",
+            "unit": "m",
+            "value": "0.8"
+          }
+        ],
+        "simulation_grant": true,
+        "simulation_review": true
+      },
+      {
+        "at_ms": 50,
+        "samples": [
+          {
+            "at_ms": 50,
+            "channel": "operator",
+            "sequence": 5,
+            "uncertainty": "0",
+            "unit": "bool",
+            "value": true
+          },
+          {
+            "at_ms": 50,
+            "channel": "requested",
+            "sequence": 5,
+            "uncertainty": "0",
+            "unit": "mps",
+            "value": "0.08"
+          },
+          {
+            "at_ms": 50,
+            "channel": "distance",
+            "sequence": 5,
+            "uncertainty": "0",
+            "unit": "m",
+            "value": "0.8"
+          }
+        ],
+        "simulation_grant": true,
+        "simulation_review": true
+      },
+      {
+        "at_ms": 60,
+        "samples": [
+          {
+            "at_ms": 60,
+            "channel": "operator",
+            "sequence": 6,
+            "uncertainty": "0",
+            "unit": "bool",
+            "value": true
+          },
+          {
+            "at_ms": 60,
+            "channel": "requested",
+            "sequence": 6,
+            "uncertainty": "0",
+            "unit": "mps",
+            "value": "0.08"
+          },
+          {
+            "at_ms": 60,
+            "channel": "distance",
+            "sequence": 6,
+            "uncertainty": "0",
+            "unit": "m",
+            "value": "0.8"
+          }
+        ],
+        "simulation_grant": true,
+        "simulation_review": true
+      },
+      {
+        "at_ms": 70,
+        "samples": [
+          {
+            "at_ms": 70,
+            "channel": "operator",
+            "sequence": 7,
+            "uncertainty": "0",
+            "unit": "bool",
+            "value": true
+          },
+          {
+            "at_ms": 70,
+            "channel": "requested",
+            "sequence": 7,
+            "uncertainty": "0",
+            "unit": "mps",
+            "value": "0.08"
+          },
+          {
+            "at_ms": 70,
+            "channel": "distance",
+            "sequence": 7,
+            "uncertainty": "0",
+            "unit": "m",
+            "value": "0.8"
+          }
+        ],
+        "simulation_grant": true,
+        "simulation_review": true
+      },
+      {
+        "at_ms": 80,
+        "samples": [
+          {
+            "at_ms": 80,
+            "channel": "operator",
+            "sequence": 8,
+            "uncertainty": "0",
+            "unit": "bool",
+            "value": true
+          },
+          {
+            "at_ms": 80,
+            "channel": "requested",
+            "sequence": 8,
+            "uncertainty": "0",
+            "unit": "mps",
+            "value": "0.08"
+          },
+          {
+            "at_ms": 80,
+            "channel": "distance",
+            "sequence": 8,
+            "uncertainty": "0",
+            "unit": "m",
+            "value": "0.8"
+          }
+        ],
+        "simulation_grant": true,
+        "simulation_review": true
+      },
+      {
+        "at_ms": 90,
+        "samples": [
+          {
+            "at_ms": 90,
+            "channel": "operator",
+            "sequence": 9,
+            "uncertainty": "0",
+            "unit": "bool",
+            "value": true
+          },
+          {
+            "at_ms": 90,
+            "channel": "requested",
+            "sequence": 9,
+            "uncertainty": "0",
+            "unit": "mps",
+            "value": "0.08"
+          },
+          {
+            "at_ms": 90,
+            "channel": "distance",
+            "sequence": 9,
+            "uncertainty": "0",
+            "unit": "m",
+            "value": "0.8"
+          }
+        ],
+        "simulation_grant": true,
+        "simulation_review": true
+      },
+      {
+        "at_ms": 100,
+        "samples": [
+          {
+            "at_ms": 100,
+            "channel": "operator",
+            "sequence": 10,
+            "uncertainty": "0",
+            "unit": "bool",
+            "value": true
+          },
+          {
+            "at_ms": 100,
+            "channel": "requested",
+            "sequence": 10,
+            "uncertainty": "0",
+            "unit": "mps",
+            "value": "0.08"
+          },
+          {
+            "at_ms": 100,
+            "channel": "distance",
+            "sequence": 10,
+            "uncertainty": "0",
+            "unit": "m",
+            "value": "0.8"
+          }
+        ],
+        "simulation_grant": true,
+        "simulation_review": true
+      },
+      {
+        "at_ms": 110,
+        "samples": [
+          {
+            "at_ms": 110,
+            "channel": "operator",
+            "sequence": 11,
+            "uncertainty": "0",
+            "unit": "bool",
+            "value": true
+          },
+          {
+            "at_ms": 110,
+            "channel": "requested",
+            "sequence": 11,
+            "uncertainty": "0",
+            "unit": "mps",
+            "value": "0.08"
+          },
+          {
+            "at_ms": 110,
+            "channel": "distance",
+            "sequence": 11,
+            "uncertainty": "0",
+            "unit": "m",
+            "value": "0.8"
+          }
+        ],
+        "simulation_grant": true,
+        "simulation_review": true
+      }
+    ],
+    "format": "equilibrium.scenario/1",
+    "name": "shared_control-success"
+  },
+  "source": "system SharedControl {\n    tick 10 ms;\n    input operator : bool fresh 30 ms;\n    sensor requested : mps fresh 30 ms uncertainty 0 mps;\n    sensor distance : m fresh 30 ms uncertainty 0.01 m;\n    actuator left : mps range [-0.1 mps, 0.1 mps] safe 0 mps slew 2 mps2;\n    actuator right : mps range [-0.1 mps, 0.1 mps] safe 0 mps slew 2 mps2;\n    capability command left;\n    capability command right;\n    state waiting initial { when operator -> motion; }\n    state motion {\n        require distance > 0.3 m;\n        command left = clamp(requested, -0.1 mps, 0.1 mps);\n        command right = clamp(requested, -0.1 mps, 0.1 mps);\n        when not operator -> waiting;\n    }\n    state stopped terminal { }\n    on fault -> stopped;\n}\n",
+  "source_sha256": "ae8a9febbc38768a436ddd3344f136157e288e7b99c24f72233f50048a4eb3f3",
+  "steps": [
+    {
+      "adapter_calls": 1,
+      "at_ms": 0,
+      "event": 0,
+      "parameters": {},
+      "result": {
+        "action": {
+          "at_ms": 0,
+          "outputs": {
+            "left": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.02"
+            },
+            "right": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.02"
+            }
+          },
+          "session": "simulation-ef00dac28f5386ac2218",
+          "source_sha256": "ae8a9febbc38768a436ddd3344f136157e288e7b99c24f72233f50048a4eb3f3",
+          "state": "motion",
+          "tick": 0
+        },
+        "action_sha256": "86a715ac63b015ad533430bee2f1d77a0362b620d0a8d760b8fa04337574d901",
+        "authority": {
+          "grant_nonce": "synthetic-grant",
+          "principal": "synthetic-operator",
+          "reviewer": "synthetic-reviewer"
+        },
+        "authorized": true,
+        "diagnostics": {},
+        "kind": "decision",
+        "observation": {
+          "positions_m": {
+            "left": "0.0002",
+            "right": "0.0002"
+          },
+          "setpoints": {
+            "left": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.02"
+            },
+            "right": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.02"
+            }
+          }
+        },
+        "reason": "allowed"
+      }
+    },
+    {
+      "adapter_calls": 2,
+      "at_ms": 10,
+      "event": 1,
+      "parameters": {},
+      "result": {
+        "action": {
+          "at_ms": 10,
+          "outputs": {
+            "left": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.04"
+            },
+            "right": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.04"
+            }
+          },
+          "session": "simulation-ef00dac28f5386ac2218",
+          "source_sha256": "ae8a9febbc38768a436ddd3344f136157e288e7b99c24f72233f50048a4eb3f3",
+          "state": "motion",
+          "tick": 1
+        },
+        "action_sha256": "7f71800e4e46ab9d5967feb803642784f2b1a9c2e50ddd7b560c15dccb7e9228",
+        "authority": {
+          "grant_nonce": "synthetic-grant",
+          "principal": "synthetic-operator",
+          "reviewer": "synthetic-reviewer"
+        },
+        "authorized": true,
+        "diagnostics": {},
+        "kind": "decision",
+        "observation": {
+          "positions_m": {
+            "left": "0.0006",
+            "right": "0.0006"
+          },
+          "setpoints": {
+            "left": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.04"
+            },
+            "right": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.04"
+            }
+          }
+        },
+        "reason": "allowed"
+      }
+    },
+    {
+      "adapter_calls": 3,
+      "at_ms": 20,
+      "event": 2,
+      "parameters": {},
+      "result": {
+        "action": {
+          "at_ms": 20,
+          "outputs": {
+            "left": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.06"
+            },
+            "right": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.06"
+            }
+          },
+          "session": "simulation-ef00dac28f5386ac2218",
+          "source_sha256": "ae8a9febbc38768a436ddd3344f136157e288e7b99c24f72233f50048a4eb3f3",
+          "state": "motion",
+          "tick": 2
+        },
+        "action_sha256": "4b6592584bae2bfce08c7206d5ab253c0836cfc4096b2a6399d0dd5323a085a9",
+        "authority": {
+          "grant_nonce": "synthetic-grant",
+          "principal": "synthetic-operator",
+          "reviewer": "synthetic-reviewer"
+        },
+        "authorized": true,
+        "diagnostics": {},
+        "kind": "decision",
+        "observation": {
+          "positions_m": {
+            "left": "0.0012",
+            "right": "0.0012"
+          },
+          "setpoints": {
+            "left": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.06"
+            },
+            "right": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.06"
+            }
+          }
+        },
+        "reason": "allowed"
+      }
+    },
+    {
+      "adapter_calls": 4,
+      "at_ms": 30,
+      "event": 3,
+      "parameters": {},
+      "result": {
+        "action": {
+          "at_ms": 30,
+          "outputs": {
+            "left": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            },
+            "right": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            }
+          },
+          "session": "simulation-ef00dac28f5386ac2218",
+          "source_sha256": "ae8a9febbc38768a436ddd3344f136157e288e7b99c24f72233f50048a4eb3f3",
+          "state": "motion",
+          "tick": 3
+        },
+        "action_sha256": "a263b5b0cf46d818c24293e366981c4a2ca0792576f3a50f2f803ded5af705f6",
+        "authority": {
+          "grant_nonce": "synthetic-grant",
+          "principal": "synthetic-operator",
+          "reviewer": "synthetic-reviewer"
+        },
+        "authorized": true,
+        "diagnostics": {},
+        "kind": "decision",
+        "observation": {
+          "positions_m": {
+            "left": "0.002",
+            "right": "0.002"
+          },
+          "setpoints": {
+            "left": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            },
+            "right": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            }
+          }
+        },
+        "reason": "allowed"
+      }
+    },
+    {
+      "adapter_calls": 5,
+      "at_ms": 40,
+      "event": 4,
+      "parameters": {},
+      "result": {
+        "action": {
+          "at_ms": 40,
+          "outputs": {
+            "left": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            },
+            "right": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            }
+          },
+          "session": "simulation-ef00dac28f5386ac2218",
+          "source_sha256": "ae8a9febbc38768a436ddd3344f136157e288e7b99c24f72233f50048a4eb3f3",
+          "state": "motion",
+          "tick": 4
+        },
+        "action_sha256": "4d02cf60ca059c979ce6b562b684a34dbd7ee8d2e64009d7a42bd8154d56a21a",
+        "authority": {
+          "grant_nonce": "synthetic-grant",
+          "principal": "synthetic-operator",
+          "reviewer": "synthetic-reviewer"
+        },
+        "authorized": true,
+        "diagnostics": {},
+        "kind": "decision",
+        "observation": {
+          "positions_m": {
+            "left": "0.0028",
+            "right": "0.0028"
+          },
+          "setpoints": {
+            "left": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            },
+            "right": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            }
+          }
+        },
+        "reason": "allowed"
+      }
+    },
+    {
+      "adapter_calls": 6,
+      "at_ms": 50,
+      "event": 5,
+      "parameters": {},
+      "result": {
+        "action": {
+          "at_ms": 50,
+          "outputs": {
+            "left": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            },
+            "right": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            }
+          },
+          "session": "simulation-ef00dac28f5386ac2218",
+          "source_sha256": "ae8a9febbc38768a436ddd3344f136157e288e7b99c24f72233f50048a4eb3f3",
+          "state": "motion",
+          "tick": 5
+        },
+        "action_sha256": "714c4258a03abb71dae94c35d95e9903ce67b48d987805923069f9a2a0d6a374",
+        "authority": {
+          "grant_nonce": "synthetic-grant",
+          "principal": "synthetic-operator",
+          "reviewer": "synthetic-reviewer"
+        },
+        "authorized": true,
+        "diagnostics": {},
+        "kind": "decision",
+        "observation": {
+          "positions_m": {
+            "left": "0.0036",
+            "right": "0.0036"
+          },
+          "setpoints": {
+            "left": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            },
+            "right": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            }
+          }
+        },
+        "reason": "allowed"
+      }
+    },
+    {
+      "adapter_calls": 7,
+      "at_ms": 60,
+      "event": 6,
+      "parameters": {},
+      "result": {
+        "action": {
+          "at_ms": 60,
+          "outputs": {
+            "left": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            },
+            "right": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            }
+          },
+          "session": "simulation-ef00dac28f5386ac2218",
+          "source_sha256": "ae8a9febbc38768a436ddd3344f136157e288e7b99c24f72233f50048a4eb3f3",
+          "state": "motion",
+          "tick": 6
+        },
+        "action_sha256": "1e6ce979ca2aa455bc394f247a3c4c58d22d9952a56f969307bce7a2a37b7fb5",
+        "authority": {
+          "grant_nonce": "synthetic-grant",
+          "principal": "synthetic-operator",
+          "reviewer": "synthetic-reviewer"
+        },
+        "authorized": true,
+        "diagnostics": {},
+        "kind": "decision",
+        "observation": {
+          "positions_m": {
+            "left": "0.0044",
+            "right": "0.0044"
+          },
+          "setpoints": {
+            "left": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            },
+            "right": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            }
+          }
+        },
+        "reason": "allowed"
+      }
+    },
+    {
+      "adapter_calls": 8,
+      "at_ms": 70,
+      "event": 7,
+      "parameters": {},
+      "result": {
+        "action": {
+          "at_ms": 70,
+          "outputs": {
+            "left": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            },
+            "right": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            }
+          },
+          "session": "simulation-ef00dac28f5386ac2218",
+          "source_sha256": "ae8a9febbc38768a436ddd3344f136157e288e7b99c24f72233f50048a4eb3f3",
+          "state": "motion",
+          "tick": 7
+        },
+        "action_sha256": "344bd0be44bc2e98915a512067f7794ba9bd881f4389a7b4f0c600aa0f227e09",
+        "authority": {
+          "grant_nonce": "synthetic-grant",
+          "principal": "synthetic-operator",
+          "reviewer": "synthetic-reviewer"
+        },
+        "authorized": true,
+        "diagnostics": {},
+        "kind": "decision",
+        "observation": {
+          "positions_m": {
+            "left": "0.0052",
+            "right": "0.0052"
+          },
+          "setpoints": {
+            "left": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            },
+            "right": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            }
+          }
+        },
+        "reason": "allowed"
+      }
+    },
+    {
+      "adapter_calls": 9,
+      "at_ms": 80,
+      "event": 8,
+      "parameters": {},
+      "result": {
+        "action": {
+          "at_ms": 80,
+          "outputs": {
+            "left": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            },
+            "right": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            }
+          },
+          "session": "simulation-ef00dac28f5386ac2218",
+          "source_sha256": "ae8a9febbc38768a436ddd3344f136157e288e7b99c24f72233f50048a4eb3f3",
+          "state": "motion",
+          "tick": 8
+        },
+        "action_sha256": "84f101d3fb950d52c36490d8f057a343ec6f922f812cfcdb549eee844d1264bf",
+        "authority": {
+          "grant_nonce": "synthetic-grant",
+          "principal": "synthetic-operator",
+          "reviewer": "synthetic-reviewer"
+        },
+        "authorized": true,
+        "diagnostics": {},
+        "kind": "decision",
+        "observation": {
+          "positions_m": {
+            "left": "0.006",
+            "right": "0.006"
+          },
+          "setpoints": {
+            "left": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            },
+            "right": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            }
+          }
+        },
+        "reason": "allowed"
+      }
+    },
+    {
+      "adapter_calls": 10,
+      "at_ms": 90,
+      "event": 9,
+      "parameters": {},
+      "result": {
+        "action": {
+          "at_ms": 90,
+          "outputs": {
+            "left": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            },
+            "right": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            }
+          },
+          "session": "simulation-ef00dac28f5386ac2218",
+          "source_sha256": "ae8a9febbc38768a436ddd3344f136157e288e7b99c24f72233f50048a4eb3f3",
+          "state": "motion",
+          "tick": 9
+        },
+        "action_sha256": "589b22ec586e4e03757c78297efa03fefc0356e1b99b327d2cd98a27253b2248",
+        "authority": {
+          "grant_nonce": "synthetic-grant",
+          "principal": "synthetic-operator",
+          "reviewer": "synthetic-reviewer"
+        },
+        "authorized": true,
+        "diagnostics": {},
+        "kind": "decision",
+        "observation": {
+          "positions_m": {
+            "left": "0.0068",
+            "right": "0.0068"
+          },
+          "setpoints": {
+            "left": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            },
+            "right": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            }
+          }
+        },
+        "reason": "allowed"
+      }
+    },
+    {
+      "adapter_calls": 11,
+      "at_ms": 100,
+      "event": 10,
+      "parameters": {},
+      "result": {
+        "action": {
+          "at_ms": 100,
+          "outputs": {
+            "left": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            },
+            "right": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            }
+          },
+          "session": "simulation-ef00dac28f5386ac2218",
+          "source_sha256": "ae8a9febbc38768a436ddd3344f136157e288e7b99c24f72233f50048a4eb3f3",
+          "state": "motion",
+          "tick": 10
+        },
+        "action_sha256": "9ef971750ebae1a36dfba68081fcc54a817615647c06419f420c51df189bbdc4",
+        "authority": {
+          "grant_nonce": "synthetic-grant",
+          "principal": "synthetic-operator",
+          "reviewer": "synthetic-reviewer"
+        },
+        "authorized": true,
+        "diagnostics": {},
+        "kind": "decision",
+        "observation": {
+          "positions_m": {
+            "left": "0.0076",
+            "right": "0.0076"
+          },
+          "setpoints": {
+            "left": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            },
+            "right": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            }
+          }
+        },
+        "reason": "allowed"
+      }
+    },
+    {
+      "adapter_calls": 12,
+      "at_ms": 110,
+      "event": 11,
+      "parameters": {},
+      "result": {
+        "action": {
+          "at_ms": 110,
+          "outputs": {
+            "left": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            },
+            "right": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            }
+          },
+          "session": "simulation-ef00dac28f5386ac2218",
+          "source_sha256": "ae8a9febbc38768a436ddd3344f136157e288e7b99c24f72233f50048a4eb3f3",
+          "state": "motion",
+          "tick": 11
+        },
+        "action_sha256": "06f4c23091186149a14f51f4a2bcc61a6012671deabb6ed6d4c7756856864e27",
+        "authority": {
+          "grant_nonce": "synthetic-grant",
+          "principal": "synthetic-operator",
+          "reviewer": "synthetic-reviewer"
+        },
+        "authorized": true,
+        "diagnostics": {},
+        "kind": "decision",
+        "observation": {
+          "positions_m": {
+            "left": "0.0084",
+            "right": "0.0084"
+          },
+          "setpoints": {
+            "left": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            },
+            "right": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            }
+          }
+        },
+        "reason": "allowed"
+      }
+    }
+  ],
+  "verification": {
+    "authenticated": false,
+    "head": "0081b17707b1cf60fe35a91aaa657b35751b03866ad904ba2aebda2d0ff490b3",
+    "records": 24,
+    "unresolved_authorizations": [],
+    "valid": true
+  }
+}

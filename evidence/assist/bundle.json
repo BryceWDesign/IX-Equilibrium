@@ -1,0 +1,2062 @@
+{
+  "authority_mode": "synthetic_simulation_only",
+  "bundle_sha256": "871116b3464d4517d0628e0a638d263912a005b5894183c334bf30d7d68565c8",
+  "evidence": {
+    "format": "equilibrium.evidence/1",
+    "head": "a2ad3a40e700b88314310925f3963329e856b3e08dd24334e301b014bcf150a1",
+    "records": [
+      {
+        "payload": {
+          "action": {
+            "at_ms": 0,
+            "outputs": {
+              "arm": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0"
+              }
+            },
+            "session": "simulation-f54ba709696ae8fa396f",
+            "source_sha256": "ad400b5b1a83c21a169bdab94c35e32c52dfb2d8b762235eb8accc5537924552",
+            "state": "idle",
+            "tick": 0
+          },
+          "action_sha256": "2f1d1e5f2b43e7177a1431ff6b6b92006b38779b43d5ff9134bbc4bf13e00aca",
+          "authorized": false,
+          "diagnostics": {},
+          "kind": "decision",
+          "reason": "idle"
+        },
+        "previous": "0000000000000000000000000000000000000000000000000000000000000000",
+        "sequence": 1,
+        "sha256": "14991475906bb56d60b069d1692884d6acb90b8dc4f916e8ef27ad20128882a9"
+      },
+      {
+        "payload": {
+          "at_ms": 0,
+          "kind": "stop",
+          "observation": {
+            "positions_m": {
+              "arm": "0"
+            },
+            "setpoints": {
+              "arm": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0"
+              }
+            }
+          },
+          "reason": "idle",
+          "session": "simulation-f54ba709696ae8fa396f",
+          "stop_confirmed": true
+        },
+        "previous": "14991475906bb56d60b069d1692884d6acb90b8dc4f916e8ef27ad20128882a9",
+        "sequence": 2,
+        "sha256": "96cc7f21125d75ced8407009e5011d9f2bc4fa8034121f9153a22804f3eaff23"
+      },
+      {
+        "payload": {
+          "action": {
+            "at_ms": 20,
+            "outputs": {
+              "arm": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0"
+              }
+            },
+            "session": "simulation-f54ba709696ae8fa396f",
+            "source_sha256": "ad400b5b1a83c21a169bdab94c35e32c52dfb2d8b762235eb8accc5537924552",
+            "state": "idle",
+            "tick": 1
+          },
+          "action_sha256": "5ab62c5c9a80a55dc79deb8b7e0cb34892bc3e659b1c0c5e88939c8e0c42f748",
+          "authorized": false,
+          "diagnostics": {},
+          "kind": "decision",
+          "reason": "idle"
+        },
+        "previous": "96cc7f21125d75ced8407009e5011d9f2bc4fa8034121f9153a22804f3eaff23",
+        "sequence": 3,
+        "sha256": "64ff57d3ba94b6dcffbbc5fcd843e6ee83d355e0e7d3940dd0c30a4a2955fd8b"
+      },
+      {
+        "payload": {
+          "at_ms": 20,
+          "kind": "stop",
+          "observation": {
+            "positions_m": {
+              "arm": "0"
+            },
+            "setpoints": {
+              "arm": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0"
+              }
+            }
+          },
+          "reason": "idle",
+          "session": "simulation-f54ba709696ae8fa396f",
+          "stop_confirmed": true
+        },
+        "previous": "64ff57d3ba94b6dcffbbc5fcd843e6ee83d355e0e7d3940dd0c30a4a2955fd8b",
+        "sequence": 4,
+        "sha256": "72b04a84343bf113f30edef5e0d81bc2620706eb81f29d6f1d45b098033abf94"
+      },
+      {
+        "payload": {
+          "action": {
+            "at_ms": 40,
+            "outputs": {
+              "arm": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.02"
+              }
+            },
+            "session": "simulation-f54ba709696ae8fa396f",
+            "source_sha256": "ad400b5b1a83c21a169bdab94c35e32c52dfb2d8b762235eb8accc5537924552",
+            "state": "moving",
+            "tick": 2
+          },
+          "action_sha256": "09856470c995c61f94ca03d4439692bc8d72ab649d10dfbce9fb897bdd27f115",
+          "authority": {
+            "grant_nonce": "synthetic-grant",
+            "principal": "synthetic-operator",
+            "reviewer": "synthetic-reviewer"
+          },
+          "authorized": true,
+          "diagnostics": {},
+          "kind": "decision",
+          "reason": "allowed"
+        },
+        "previous": "72b04a84343bf113f30edef5e0d81bc2620706eb81f29d6f1d45b098033abf94",
+        "sequence": 5,
+        "sha256": "a97f664f1dfe1a732c3775671397d788c39217eeb578eac6529a11af2b1eec6c"
+      },
+      {
+        "payload": {
+          "action_sha256": "09856470c995c61f94ca03d4439692bc8d72ab649d10dfbce9fb897bdd27f115",
+          "kind": "outcome",
+          "observation": {
+            "positions_m": {
+              "arm": "0.0004"
+            },
+            "setpoints": {
+              "arm": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.02"
+              }
+            }
+          },
+          "status": "observed"
+        },
+        "previous": "a97f664f1dfe1a732c3775671397d788c39217eeb578eac6529a11af2b1eec6c",
+        "sequence": 6,
+        "sha256": "de9fe374151f7babb4978a68a22387a44f935ef0e2e4a38508e98b74e27b657f"
+      },
+      {
+        "payload": {
+          "action": {
+            "at_ms": 60,
+            "outputs": {
+              "arm": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.04"
+              }
+            },
+            "session": "simulation-f54ba709696ae8fa396f",
+            "source_sha256": "ad400b5b1a83c21a169bdab94c35e32c52dfb2d8b762235eb8accc5537924552",
+            "state": "moving",
+            "tick": 3
+          },
+          "action_sha256": "929e09c413f1c1b3009cdb5eb2e5ea7e9f00f96c1d1ea6cb065736f14b684ec1",
+          "authority": {
+            "grant_nonce": "synthetic-grant",
+            "principal": "synthetic-operator",
+            "reviewer": "synthetic-reviewer"
+          },
+          "authorized": true,
+          "diagnostics": {},
+          "kind": "decision",
+          "reason": "allowed"
+        },
+        "previous": "de9fe374151f7babb4978a68a22387a44f935ef0e2e4a38508e98b74e27b657f",
+        "sequence": 7,
+        "sha256": "4e3af80bdf4e2cac7a48ae24f2ca970cc297077fc366235f37fd2e082296645f"
+      },
+      {
+        "payload": {
+          "action_sha256": "929e09c413f1c1b3009cdb5eb2e5ea7e9f00f96c1d1ea6cb065736f14b684ec1",
+          "kind": "outcome",
+          "observation": {
+            "positions_m": {
+              "arm": "0.0012"
+            },
+            "setpoints": {
+              "arm": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.04"
+              }
+            }
+          },
+          "status": "observed"
+        },
+        "previous": "4e3af80bdf4e2cac7a48ae24f2ca970cc297077fc366235f37fd2e082296645f",
+        "sequence": 8,
+        "sha256": "f213276b2b0c8c05eeb9e089b87fe2f47fcfc8a65d8fc080dabcb8456ff9aee3"
+      },
+      {
+        "payload": {
+          "action": {
+            "at_ms": 80,
+            "outputs": {
+              "arm": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.06"
+              }
+            },
+            "session": "simulation-f54ba709696ae8fa396f",
+            "source_sha256": "ad400b5b1a83c21a169bdab94c35e32c52dfb2d8b762235eb8accc5537924552",
+            "state": "moving",
+            "tick": 4
+          },
+          "action_sha256": "f8f8336ce363743003c48dc017ab676f6de57be16b3bf937d9644fc19d1fe150",
+          "authority": {
+            "grant_nonce": "synthetic-grant",
+            "principal": "synthetic-operator",
+            "reviewer": "synthetic-reviewer"
+          },
+          "authorized": true,
+          "diagnostics": {},
+          "kind": "decision",
+          "reason": "allowed"
+        },
+        "previous": "f213276b2b0c8c05eeb9e089b87fe2f47fcfc8a65d8fc080dabcb8456ff9aee3",
+        "sequence": 9,
+        "sha256": "f83ec7a169b3c93022b105fa48a8a5c33b905a315018c1063ee268d1bb9632f6"
+      },
+      {
+        "payload": {
+          "action_sha256": "f8f8336ce363743003c48dc017ab676f6de57be16b3bf937d9644fc19d1fe150",
+          "kind": "outcome",
+          "observation": {
+            "positions_m": {
+              "arm": "0.0024"
+            },
+            "setpoints": {
+              "arm": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.06"
+              }
+            }
+          },
+          "status": "observed"
+        },
+        "previous": "f83ec7a169b3c93022b105fa48a8a5c33b905a315018c1063ee268d1bb9632f6",
+        "sequence": 10,
+        "sha256": "b60fd6e2e5042be779c6fb1c5a884caa57b8e278631231f7269f0f8f03c2d82f"
+      },
+      {
+        "payload": {
+          "action": {
+            "at_ms": 100,
+            "outputs": {
+              "arm": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              }
+            },
+            "session": "simulation-f54ba709696ae8fa396f",
+            "source_sha256": "ad400b5b1a83c21a169bdab94c35e32c52dfb2d8b762235eb8accc5537924552",
+            "state": "moving",
+            "tick": 5
+          },
+          "action_sha256": "8f952a92899e95b35477312e4ddef54370dcec28dc17b0d21a6825fd620aeed9",
+          "authority": {
+            "grant_nonce": "synthetic-grant",
+            "principal": "synthetic-operator",
+            "reviewer": "synthetic-reviewer"
+          },
+          "authorized": true,
+          "diagnostics": {},
+          "kind": "decision",
+          "reason": "allowed"
+        },
+        "previous": "b60fd6e2e5042be779c6fb1c5a884caa57b8e278631231f7269f0f8f03c2d82f",
+        "sequence": 11,
+        "sha256": "214ff06462de2f8b5c01b964e7852e6477162abb49a6dd940ba38e83f6b0290e"
+      },
+      {
+        "payload": {
+          "action_sha256": "8f952a92899e95b35477312e4ddef54370dcec28dc17b0d21a6825fd620aeed9",
+          "kind": "outcome",
+          "observation": {
+            "positions_m": {
+              "arm": "0.004"
+            },
+            "setpoints": {
+              "arm": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.08"
+              }
+            }
+          },
+          "status": "observed"
+        },
+        "previous": "214ff06462de2f8b5c01b964e7852e6477162abb49a6dd940ba38e83f6b0290e",
+        "sequence": 12,
+        "sha256": "09705e1f71fa04dfc115db74cca68d182ef71565c7064bcca1971a9fbb79c902"
+      },
+      {
+        "payload": {
+          "action": {
+            "at_ms": 120,
+            "outputs": {
+              "arm": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.1"
+              }
+            },
+            "session": "simulation-f54ba709696ae8fa396f",
+            "source_sha256": "ad400b5b1a83c21a169bdab94c35e32c52dfb2d8b762235eb8accc5537924552",
+            "state": "moving",
+            "tick": 6
+          },
+          "action_sha256": "3dff147bb8c07d50cfd7e5cceb24aec749039c5ad9482f23f0e9a8ae3efb59af",
+          "authority": {
+            "grant_nonce": "synthetic-grant",
+            "principal": "synthetic-operator",
+            "reviewer": "synthetic-reviewer"
+          },
+          "authorized": true,
+          "diagnostics": {},
+          "kind": "decision",
+          "reason": "allowed"
+        },
+        "previous": "09705e1f71fa04dfc115db74cca68d182ef71565c7064bcca1971a9fbb79c902",
+        "sequence": 13,
+        "sha256": "54fbe3cadd6adddccb5f80ea0376b4c895c589e575b5ac06c82fea2c941fcdf5"
+      },
+      {
+        "payload": {
+          "action_sha256": "3dff147bb8c07d50cfd7e5cceb24aec749039c5ad9482f23f0e9a8ae3efb59af",
+          "kind": "outcome",
+          "observation": {
+            "positions_m": {
+              "arm": "0.006"
+            },
+            "setpoints": {
+              "arm": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.1"
+              }
+            }
+          },
+          "status": "observed"
+        },
+        "previous": "54fbe3cadd6adddccb5f80ea0376b4c895c589e575b5ac06c82fea2c941fcdf5",
+        "sequence": 14,
+        "sha256": "7df23dba3581692d69c5d96224d0742f34a471b0cb7959e331a38474f1fa066c"
+      },
+      {
+        "payload": {
+          "action": {
+            "at_ms": 140,
+            "outputs": {
+              "arm": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.12"
+              }
+            },
+            "session": "simulation-f54ba709696ae8fa396f",
+            "source_sha256": "ad400b5b1a83c21a169bdab94c35e32c52dfb2d8b762235eb8accc5537924552",
+            "state": "moving",
+            "tick": 7
+          },
+          "action_sha256": "3110bd7a4f9baaaa920467b7b71a59d534e11d141a0c3ca70521396c846ba02b",
+          "authority": {
+            "grant_nonce": "synthetic-grant",
+            "principal": "synthetic-operator",
+            "reviewer": "synthetic-reviewer"
+          },
+          "authorized": true,
+          "diagnostics": {},
+          "kind": "decision",
+          "reason": "allowed"
+        },
+        "previous": "7df23dba3581692d69c5d96224d0742f34a471b0cb7959e331a38474f1fa066c",
+        "sequence": 15,
+        "sha256": "7725be2213d6afe4560d8dc34bccf7db472b806c7e318d60ec1fd76ab2e62c4d"
+      },
+      {
+        "payload": {
+          "action_sha256": "3110bd7a4f9baaaa920467b7b71a59d534e11d141a0c3ca70521396c846ba02b",
+          "kind": "outcome",
+          "observation": {
+            "positions_m": {
+              "arm": "0.0084"
+            },
+            "setpoints": {
+              "arm": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.12"
+              }
+            }
+          },
+          "status": "observed"
+        },
+        "previous": "7725be2213d6afe4560d8dc34bccf7db472b806c7e318d60ec1fd76ab2e62c4d",
+        "sequence": 16,
+        "sha256": "f39b348045391ae3ec110e5d31d5bd60091044bbeac8ed1dfc187a79f9f7e5b6"
+      },
+      {
+        "payload": {
+          "action": {
+            "at_ms": 160,
+            "outputs": {
+              "arm": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.14"
+              }
+            },
+            "session": "simulation-f54ba709696ae8fa396f",
+            "source_sha256": "ad400b5b1a83c21a169bdab94c35e32c52dfb2d8b762235eb8accc5537924552",
+            "state": "moving",
+            "tick": 8
+          },
+          "action_sha256": "ca8e0e89c72aa3c74acb5da72219f18e2b7ef0c0c21af07690c12c97592b40b2",
+          "authority": {
+            "grant_nonce": "synthetic-grant",
+            "principal": "synthetic-operator",
+            "reviewer": "synthetic-reviewer"
+          },
+          "authorized": true,
+          "diagnostics": {},
+          "kind": "decision",
+          "reason": "allowed"
+        },
+        "previous": "f39b348045391ae3ec110e5d31d5bd60091044bbeac8ed1dfc187a79f9f7e5b6",
+        "sequence": 17,
+        "sha256": "9d7e6683f0e8dd8057c544557b0c4cb4d3f4c5a2616318f181442ea2acab3e11"
+      },
+      {
+        "payload": {
+          "action_sha256": "ca8e0e89c72aa3c74acb5da72219f18e2b7ef0c0c21af07690c12c97592b40b2",
+          "kind": "outcome",
+          "observation": {
+            "positions_m": {
+              "arm": "0.0112"
+            },
+            "setpoints": {
+              "arm": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.14"
+              }
+            }
+          },
+          "status": "observed"
+        },
+        "previous": "9d7e6683f0e8dd8057c544557b0c4cb4d3f4c5a2616318f181442ea2acab3e11",
+        "sequence": 18,
+        "sha256": "8db27e85be8419919572839a87cb0c5efcd5813a84d6d0f43bf907d8fe3131c2"
+      },
+      {
+        "payload": {
+          "action": {
+            "at_ms": 180,
+            "outputs": {
+              "arm": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.14"
+              }
+            },
+            "session": "simulation-f54ba709696ae8fa396f",
+            "source_sha256": "ad400b5b1a83c21a169bdab94c35e32c52dfb2d8b762235eb8accc5537924552",
+            "state": "moving",
+            "tick": 9
+          },
+          "action_sha256": "ca44f785720342ac0c71071992a5bb4d945ddf9e41b9e7b4721e72c22abed1e0",
+          "authority": {
+            "grant_nonce": "synthetic-grant",
+            "principal": "synthetic-operator",
+            "reviewer": "synthetic-reviewer"
+          },
+          "authorized": true,
+          "diagnostics": {},
+          "kind": "decision",
+          "reason": "allowed"
+        },
+        "previous": "8db27e85be8419919572839a87cb0c5efcd5813a84d6d0f43bf907d8fe3131c2",
+        "sequence": 19,
+        "sha256": "78efecb69e282ca00cb6ed66ba41b7845d1659acda2c01eda221139708b2b47d"
+      },
+      {
+        "payload": {
+          "action_sha256": "ca44f785720342ac0c71071992a5bb4d945ddf9e41b9e7b4721e72c22abed1e0",
+          "kind": "outcome",
+          "observation": {
+            "positions_m": {
+              "arm": "0.014"
+            },
+            "setpoints": {
+              "arm": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0.14"
+              }
+            }
+          },
+          "status": "observed"
+        },
+        "previous": "78efecb69e282ca00cb6ed66ba41b7845d1659acda2c01eda221139708b2b47d",
+        "sequence": 20,
+        "sha256": "2a5c9b110a0e46258eb79f0c19035b53131663f5dc296bf1eaf1632512e5fc82"
+      },
+      {
+        "payload": {
+          "action": {
+            "at_ms": 200,
+            "outputs": {
+              "arm": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0"
+              }
+            },
+            "session": "simulation-f54ba709696ae8fa396f",
+            "source_sha256": "ad400b5b1a83c21a169bdab94c35e32c52dfb2d8b762235eb8accc5537924552",
+            "state": "idle",
+            "tick": 10
+          },
+          "action_sha256": "8145ad3dfb48881ecf97452faca00aef129c16366dac7f45dffd8808d00ca2ae",
+          "authorized": false,
+          "diagnostics": {},
+          "kind": "decision",
+          "reason": "idle"
+        },
+        "previous": "2a5c9b110a0e46258eb79f0c19035b53131663f5dc296bf1eaf1632512e5fc82",
+        "sequence": 21,
+        "sha256": "4afbab3bd10b327377caef041ba02ed9f362e00bb96dcabf307de9a0cdf917da"
+      },
+      {
+        "payload": {
+          "at_ms": 200,
+          "kind": "stop",
+          "observation": {
+            "positions_m": {
+              "arm": "0.014"
+            },
+            "setpoints": {
+              "arm": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0"
+              }
+            }
+          },
+          "reason": "idle",
+          "session": "simulation-f54ba709696ae8fa396f",
+          "stop_confirmed": true
+        },
+        "previous": "4afbab3bd10b327377caef041ba02ed9f362e00bb96dcabf307de9a0cdf917da",
+        "sequence": 22,
+        "sha256": "7e4c9630860e83a202b68452db4e403c55b8707fe4f5718d0ca3d1713cc7ba40"
+      },
+      {
+        "payload": {
+          "action": {
+            "at_ms": 220,
+            "outputs": {
+              "arm": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0"
+              }
+            },
+            "session": "simulation-f54ba709696ae8fa396f",
+            "source_sha256": "ad400b5b1a83c21a169bdab94c35e32c52dfb2d8b762235eb8accc5537924552",
+            "state": "idle",
+            "tick": 11
+          },
+          "action_sha256": "c504802945c024b983022e4c2ec3959d3ac3de5473b627bda96bd8db39d1737b",
+          "authorized": false,
+          "diagnostics": {},
+          "kind": "decision",
+          "reason": "idle"
+        },
+        "previous": "7e4c9630860e83a202b68452db4e403c55b8707fe4f5718d0ca3d1713cc7ba40",
+        "sequence": 23,
+        "sha256": "555094f3d5a8213313e25993fd57d9e67565f73b3d5e73792086cd2e1118b6a1"
+      },
+      {
+        "payload": {
+          "at_ms": 220,
+          "kind": "stop",
+          "observation": {
+            "positions_m": {
+              "arm": "0.014"
+            },
+            "setpoints": {
+              "arm": {
+                "dimension": [
+                  1,
+                  0,
+                  -1,
+                  0
+                ],
+                "value": "0"
+              }
+            }
+          },
+          "reason": "idle",
+          "session": "simulation-f54ba709696ae8fa396f",
+          "stop_confirmed": true
+        },
+        "previous": "555094f3d5a8213313e25993fd57d9e67565f73b3d5e73792086cd2e1118b6a1",
+        "sequence": 24,
+        "sha256": "a2ad3a40e700b88314310925f3963329e856b3e08dd24334e301b014bcf150a1"
+      }
+    ]
+  },
+  "final": {
+    "adapter_calls": 8,
+    "halted": false,
+    "observation": {
+      "positions_m": {
+        "arm": "0.014"
+      },
+      "setpoints": {
+        "arm": {
+          "dimension": [
+            1,
+            0,
+            -1,
+            0
+          ],
+          "value": "0"
+        }
+      }
+    },
+    "state": "idle",
+    "stop_requests": 4
+  },
+  "format": "equilibrium.simulation/1",
+  "scenario": {
+    "events": [
+      {
+        "at_ms": 0,
+        "samples": [
+          {
+            "at_ms": 0,
+            "channel": "vision",
+            "sequence": 0,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 0,
+            "channel": "proximity",
+            "sequence": 0,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 0,
+            "channel": "tactile",
+            "sequence": 0,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 0,
+            "channel": "load",
+            "sequence": 0,
+            "uncertainty": "0.1",
+            "unit": "N",
+            "value": "1"
+          },
+          {
+            "at_ms": 0,
+            "channel": "intent",
+            "sequence": 0,
+            "uncertainty": "0",
+            "unit": "bool",
+            "value": false
+          }
+        ],
+        "simulation_grant": true,
+        "simulation_review": true
+      },
+      {
+        "at_ms": 20,
+        "samples": [
+          {
+            "at_ms": 20,
+            "channel": "vision",
+            "sequence": 1,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 20,
+            "channel": "proximity",
+            "sequence": 1,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 20,
+            "channel": "tactile",
+            "sequence": 1,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 20,
+            "channel": "load",
+            "sequence": 1,
+            "uncertainty": "0.1",
+            "unit": "N",
+            "value": "1"
+          },
+          {
+            "at_ms": 20,
+            "channel": "intent",
+            "sequence": 1,
+            "uncertainty": "0",
+            "unit": "bool",
+            "value": false
+          }
+        ],
+        "simulation_grant": true,
+        "simulation_review": true
+      },
+      {
+        "at_ms": 40,
+        "samples": [
+          {
+            "at_ms": 40,
+            "channel": "vision",
+            "sequence": 2,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 40,
+            "channel": "proximity",
+            "sequence": 2,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 40,
+            "channel": "tactile",
+            "sequence": 2,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 40,
+            "channel": "load",
+            "sequence": 2,
+            "uncertainty": "0.1",
+            "unit": "N",
+            "value": "1"
+          },
+          {
+            "at_ms": 40,
+            "channel": "intent",
+            "sequence": 2,
+            "uncertainty": "0",
+            "unit": "bool",
+            "value": true
+          }
+        ],
+        "simulation_grant": true,
+        "simulation_review": true
+      },
+      {
+        "at_ms": 60,
+        "samples": [
+          {
+            "at_ms": 60,
+            "channel": "vision",
+            "sequence": 3,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 60,
+            "channel": "proximity",
+            "sequence": 3,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 60,
+            "channel": "tactile",
+            "sequence": 3,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 60,
+            "channel": "load",
+            "sequence": 3,
+            "uncertainty": "0.1",
+            "unit": "N",
+            "value": "1"
+          },
+          {
+            "at_ms": 60,
+            "channel": "intent",
+            "sequence": 3,
+            "uncertainty": "0",
+            "unit": "bool",
+            "value": true
+          }
+        ],
+        "simulation_grant": true,
+        "simulation_review": true
+      },
+      {
+        "at_ms": 80,
+        "samples": [
+          {
+            "at_ms": 80,
+            "channel": "vision",
+            "sequence": 4,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 80,
+            "channel": "proximity",
+            "sequence": 4,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 80,
+            "channel": "tactile",
+            "sequence": 4,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 80,
+            "channel": "load",
+            "sequence": 4,
+            "uncertainty": "0.1",
+            "unit": "N",
+            "value": "1"
+          },
+          {
+            "at_ms": 80,
+            "channel": "intent",
+            "sequence": 4,
+            "uncertainty": "0",
+            "unit": "bool",
+            "value": true
+          }
+        ],
+        "simulation_grant": true,
+        "simulation_review": true
+      },
+      {
+        "at_ms": 100,
+        "samples": [
+          {
+            "at_ms": 100,
+            "channel": "vision",
+            "sequence": 5,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 100,
+            "channel": "proximity",
+            "sequence": 5,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 100,
+            "channel": "tactile",
+            "sequence": 5,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 100,
+            "channel": "load",
+            "sequence": 5,
+            "uncertainty": "0.1",
+            "unit": "N",
+            "value": "1"
+          },
+          {
+            "at_ms": 100,
+            "channel": "intent",
+            "sequence": 5,
+            "uncertainty": "0",
+            "unit": "bool",
+            "value": true
+          }
+        ],
+        "simulation_grant": true,
+        "simulation_review": true
+      },
+      {
+        "at_ms": 120,
+        "samples": [
+          {
+            "at_ms": 120,
+            "channel": "vision",
+            "sequence": 6,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 120,
+            "channel": "proximity",
+            "sequence": 6,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 120,
+            "channel": "tactile",
+            "sequence": 6,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 120,
+            "channel": "load",
+            "sequence": 6,
+            "uncertainty": "0.1",
+            "unit": "N",
+            "value": "1"
+          },
+          {
+            "at_ms": 120,
+            "channel": "intent",
+            "sequence": 6,
+            "uncertainty": "0",
+            "unit": "bool",
+            "value": true
+          }
+        ],
+        "simulation_grant": true,
+        "simulation_review": true
+      },
+      {
+        "at_ms": 140,
+        "samples": [
+          {
+            "at_ms": 140,
+            "channel": "vision",
+            "sequence": 7,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 140,
+            "channel": "proximity",
+            "sequence": 7,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 140,
+            "channel": "tactile",
+            "sequence": 7,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 140,
+            "channel": "load",
+            "sequence": 7,
+            "uncertainty": "0.1",
+            "unit": "N",
+            "value": "1"
+          },
+          {
+            "at_ms": 140,
+            "channel": "intent",
+            "sequence": 7,
+            "uncertainty": "0",
+            "unit": "bool",
+            "value": true
+          }
+        ],
+        "simulation_grant": true,
+        "simulation_review": true
+      },
+      {
+        "at_ms": 160,
+        "samples": [
+          {
+            "at_ms": 160,
+            "channel": "vision",
+            "sequence": 8,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 160,
+            "channel": "proximity",
+            "sequence": 8,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 160,
+            "channel": "tactile",
+            "sequence": 8,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 160,
+            "channel": "load",
+            "sequence": 8,
+            "uncertainty": "0.1",
+            "unit": "N",
+            "value": "1"
+          },
+          {
+            "at_ms": 160,
+            "channel": "intent",
+            "sequence": 8,
+            "uncertainty": "0",
+            "unit": "bool",
+            "value": true
+          }
+        ],
+        "simulation_grant": true,
+        "simulation_review": true
+      },
+      {
+        "at_ms": 180,
+        "samples": [
+          {
+            "at_ms": 180,
+            "channel": "vision",
+            "sequence": 9,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 180,
+            "channel": "proximity",
+            "sequence": 9,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 180,
+            "channel": "tactile",
+            "sequence": 9,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 180,
+            "channel": "load",
+            "sequence": 9,
+            "uncertainty": "0.1",
+            "unit": "N",
+            "value": "1"
+          },
+          {
+            "at_ms": 180,
+            "channel": "intent",
+            "sequence": 9,
+            "uncertainty": "0",
+            "unit": "bool",
+            "value": true
+          }
+        ],
+        "simulation_grant": true,
+        "simulation_review": true
+      },
+      {
+        "at_ms": 200,
+        "samples": [
+          {
+            "at_ms": 200,
+            "channel": "vision",
+            "sequence": 10,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 200,
+            "channel": "proximity",
+            "sequence": 10,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 200,
+            "channel": "tactile",
+            "sequence": 10,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 200,
+            "channel": "load",
+            "sequence": 10,
+            "uncertainty": "0.1",
+            "unit": "N",
+            "value": "1"
+          },
+          {
+            "at_ms": 200,
+            "channel": "intent",
+            "sequence": 10,
+            "uncertainty": "0",
+            "unit": "bool",
+            "value": false
+          }
+        ],
+        "simulation_grant": true,
+        "simulation_review": true
+      },
+      {
+        "at_ms": 220,
+        "samples": [
+          {
+            "at_ms": 220,
+            "channel": "vision",
+            "sequence": 11,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 220,
+            "channel": "proximity",
+            "sequence": 11,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 220,
+            "channel": "tactile",
+            "sequence": 11,
+            "uncertainty": "0.01",
+            "unit": "m",
+            "value": "0.7"
+          },
+          {
+            "at_ms": 220,
+            "channel": "load",
+            "sequence": 11,
+            "uncertainty": "0.1",
+            "unit": "N",
+            "value": "1"
+          },
+          {
+            "at_ms": 220,
+            "channel": "intent",
+            "sequence": 11,
+            "uncertainty": "0",
+            "unit": "bool",
+            "value": false
+          }
+        ],
+        "simulation_grant": true,
+        "simulation_review": true
+      }
+    ],
+    "format": "equilibrium.scenario/1",
+    "name": "adaptive-assist-success"
+  },
+  "source": "// Research supervisory language; the host owns grants and independent stops.\nsystem AdaptiveAssist {\n    tick 20 ms;\n    sensor vision : m fresh 100 ms uncertainty 0.01 m;\n    sensor proximity : m fresh 100 ms uncertainty 0.01 m;\n    sensor tactile : m fresh 100 ms uncertainty 0.01 m;\n    sensor load : N fresh 60 ms uncertainty 0.1 N;\n    input intent : bool fresh 100 ms;\n    mesh clearance : m = quorum(vision, proximity, tactile) tolerance 0.08 m require 2;\n    param gain : scalar = 0.5 within [0.1, 1.0] rate 0.1;\n    actuator arm : mps range [-0.2 mps, 0.2 mps] safe 0 mps slew 1 mps2;\n    capability command arm;\n    invariant contact_load : load < 5 N;\n    state idle initial {\n        when intent -> moving;\n    }\n    state moving {\n        require clearance > 0.2 m;\n        adapt gain = clamp(clearance / 1 m, 0.1, 1.0);\n        command arm = gain * 0.2 mps;\n        when not intent -> idle;\n        after 2 s -> complete;\n    }\n    state complete terminal { }\n    state stopped terminal { }\n    on fault -> stopped;\n}\n",
+  "source_sha256": "ad400b5b1a83c21a169bdab94c35e32c52dfb2d8b762235eb8accc5537924552",
+  "steps": [
+    {
+      "adapter_calls": 0,
+      "at_ms": 0,
+      "event": 0,
+      "parameters": {
+        "gain": {
+          "dimension": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "value": "0.5"
+        }
+      },
+      "result": {
+        "action": {
+          "at_ms": 0,
+          "outputs": {
+            "arm": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0"
+            }
+          },
+          "session": "simulation-f54ba709696ae8fa396f",
+          "source_sha256": "ad400b5b1a83c21a169bdab94c35e32c52dfb2d8b762235eb8accc5537924552",
+          "state": "idle",
+          "tick": 0
+        },
+        "action_sha256": "2f1d1e5f2b43e7177a1431ff6b6b92006b38779b43d5ff9134bbc4bf13e00aca",
+        "authorized": false,
+        "diagnostics": {},
+        "kind": "decision",
+        "observation": {
+          "positions_m": {
+            "arm": "0"
+          },
+          "setpoints": {
+            "arm": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0"
+            }
+          }
+        },
+        "reason": "idle",
+        "stop_confirmed": true
+      }
+    },
+    {
+      "adapter_calls": 0,
+      "at_ms": 20,
+      "event": 1,
+      "parameters": {
+        "gain": {
+          "dimension": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "value": "0.5"
+        }
+      },
+      "result": {
+        "action": {
+          "at_ms": 20,
+          "outputs": {
+            "arm": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0"
+            }
+          },
+          "session": "simulation-f54ba709696ae8fa396f",
+          "source_sha256": "ad400b5b1a83c21a169bdab94c35e32c52dfb2d8b762235eb8accc5537924552",
+          "state": "idle",
+          "tick": 1
+        },
+        "action_sha256": "5ab62c5c9a80a55dc79deb8b7e0cb34892bc3e659b1c0c5e88939c8e0c42f748",
+        "authorized": false,
+        "diagnostics": {},
+        "kind": "decision",
+        "observation": {
+          "positions_m": {
+            "arm": "0"
+          },
+          "setpoints": {
+            "arm": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0"
+            }
+          }
+        },
+        "reason": "idle",
+        "stop_confirmed": true
+      }
+    },
+    {
+      "adapter_calls": 1,
+      "at_ms": 40,
+      "event": 2,
+      "parameters": {
+        "gain": {
+          "dimension": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "value": "0.6"
+        }
+      },
+      "result": {
+        "action": {
+          "at_ms": 40,
+          "outputs": {
+            "arm": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.02"
+            }
+          },
+          "session": "simulation-f54ba709696ae8fa396f",
+          "source_sha256": "ad400b5b1a83c21a169bdab94c35e32c52dfb2d8b762235eb8accc5537924552",
+          "state": "moving",
+          "tick": 2
+        },
+        "action_sha256": "09856470c995c61f94ca03d4439692bc8d72ab649d10dfbce9fb897bdd27f115",
+        "authority": {
+          "grant_nonce": "synthetic-grant",
+          "principal": "synthetic-operator",
+          "reviewer": "synthetic-reviewer"
+        },
+        "authorized": true,
+        "diagnostics": {},
+        "kind": "decision",
+        "observation": {
+          "positions_m": {
+            "arm": "0.0004"
+          },
+          "setpoints": {
+            "arm": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.02"
+            }
+          }
+        },
+        "reason": "allowed"
+      }
+    },
+    {
+      "adapter_calls": 2,
+      "at_ms": 60,
+      "event": 3,
+      "parameters": {
+        "gain": {
+          "dimension": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "value": "0.7"
+        }
+      },
+      "result": {
+        "action": {
+          "at_ms": 60,
+          "outputs": {
+            "arm": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.04"
+            }
+          },
+          "session": "simulation-f54ba709696ae8fa396f",
+          "source_sha256": "ad400b5b1a83c21a169bdab94c35e32c52dfb2d8b762235eb8accc5537924552",
+          "state": "moving",
+          "tick": 3
+        },
+        "action_sha256": "929e09c413f1c1b3009cdb5eb2e5ea7e9f00f96c1d1ea6cb065736f14b684ec1",
+        "authority": {
+          "grant_nonce": "synthetic-grant",
+          "principal": "synthetic-operator",
+          "reviewer": "synthetic-reviewer"
+        },
+        "authorized": true,
+        "diagnostics": {},
+        "kind": "decision",
+        "observation": {
+          "positions_m": {
+            "arm": "0.0012"
+          },
+          "setpoints": {
+            "arm": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.04"
+            }
+          }
+        },
+        "reason": "allowed"
+      }
+    },
+    {
+      "adapter_calls": 3,
+      "at_ms": 80,
+      "event": 4,
+      "parameters": {
+        "gain": {
+          "dimension": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "value": "0.7"
+        }
+      },
+      "result": {
+        "action": {
+          "at_ms": 80,
+          "outputs": {
+            "arm": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.06"
+            }
+          },
+          "session": "simulation-f54ba709696ae8fa396f",
+          "source_sha256": "ad400b5b1a83c21a169bdab94c35e32c52dfb2d8b762235eb8accc5537924552",
+          "state": "moving",
+          "tick": 4
+        },
+        "action_sha256": "f8f8336ce363743003c48dc017ab676f6de57be16b3bf937d9644fc19d1fe150",
+        "authority": {
+          "grant_nonce": "synthetic-grant",
+          "principal": "synthetic-operator",
+          "reviewer": "synthetic-reviewer"
+        },
+        "authorized": true,
+        "diagnostics": {},
+        "kind": "decision",
+        "observation": {
+          "positions_m": {
+            "arm": "0.0024"
+          },
+          "setpoints": {
+            "arm": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.06"
+            }
+          }
+        },
+        "reason": "allowed"
+      }
+    },
+    {
+      "adapter_calls": 4,
+      "at_ms": 100,
+      "event": 5,
+      "parameters": {
+        "gain": {
+          "dimension": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "value": "0.7"
+        }
+      },
+      "result": {
+        "action": {
+          "at_ms": 100,
+          "outputs": {
+            "arm": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            }
+          },
+          "session": "simulation-f54ba709696ae8fa396f",
+          "source_sha256": "ad400b5b1a83c21a169bdab94c35e32c52dfb2d8b762235eb8accc5537924552",
+          "state": "moving",
+          "tick": 5
+        },
+        "action_sha256": "8f952a92899e95b35477312e4ddef54370dcec28dc17b0d21a6825fd620aeed9",
+        "authority": {
+          "grant_nonce": "synthetic-grant",
+          "principal": "synthetic-operator",
+          "reviewer": "synthetic-reviewer"
+        },
+        "authorized": true,
+        "diagnostics": {},
+        "kind": "decision",
+        "observation": {
+          "positions_m": {
+            "arm": "0.004"
+          },
+          "setpoints": {
+            "arm": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.08"
+            }
+          }
+        },
+        "reason": "allowed"
+      }
+    },
+    {
+      "adapter_calls": 5,
+      "at_ms": 120,
+      "event": 6,
+      "parameters": {
+        "gain": {
+          "dimension": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "value": "0.7"
+        }
+      },
+      "result": {
+        "action": {
+          "at_ms": 120,
+          "outputs": {
+            "arm": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.1"
+            }
+          },
+          "session": "simulation-f54ba709696ae8fa396f",
+          "source_sha256": "ad400b5b1a83c21a169bdab94c35e32c52dfb2d8b762235eb8accc5537924552",
+          "state": "moving",
+          "tick": 6
+        },
+        "action_sha256": "3dff147bb8c07d50cfd7e5cceb24aec749039c5ad9482f23f0e9a8ae3efb59af",
+        "authority": {
+          "grant_nonce": "synthetic-grant",
+          "principal": "synthetic-operator",
+          "reviewer": "synthetic-reviewer"
+        },
+        "authorized": true,
+        "diagnostics": {},
+        "kind": "decision",
+        "observation": {
+          "positions_m": {
+            "arm": "0.006"
+          },
+          "setpoints": {
+            "arm": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.1"
+            }
+          }
+        },
+        "reason": "allowed"
+      }
+    },
+    {
+      "adapter_calls": 6,
+      "at_ms": 140,
+      "event": 7,
+      "parameters": {
+        "gain": {
+          "dimension": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "value": "0.7"
+        }
+      },
+      "result": {
+        "action": {
+          "at_ms": 140,
+          "outputs": {
+            "arm": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.12"
+            }
+          },
+          "session": "simulation-f54ba709696ae8fa396f",
+          "source_sha256": "ad400b5b1a83c21a169bdab94c35e32c52dfb2d8b762235eb8accc5537924552",
+          "state": "moving",
+          "tick": 7
+        },
+        "action_sha256": "3110bd7a4f9baaaa920467b7b71a59d534e11d141a0c3ca70521396c846ba02b",
+        "authority": {
+          "grant_nonce": "synthetic-grant",
+          "principal": "synthetic-operator",
+          "reviewer": "synthetic-reviewer"
+        },
+        "authorized": true,
+        "diagnostics": {},
+        "kind": "decision",
+        "observation": {
+          "positions_m": {
+            "arm": "0.0084"
+          },
+          "setpoints": {
+            "arm": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.12"
+            }
+          }
+        },
+        "reason": "allowed"
+      }
+    },
+    {
+      "adapter_calls": 7,
+      "at_ms": 160,
+      "event": 8,
+      "parameters": {
+        "gain": {
+          "dimension": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "value": "0.7"
+        }
+      },
+      "result": {
+        "action": {
+          "at_ms": 160,
+          "outputs": {
+            "arm": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.14"
+            }
+          },
+          "session": "simulation-f54ba709696ae8fa396f",
+          "source_sha256": "ad400b5b1a83c21a169bdab94c35e32c52dfb2d8b762235eb8accc5537924552",
+          "state": "moving",
+          "tick": 8
+        },
+        "action_sha256": "ca8e0e89c72aa3c74acb5da72219f18e2b7ef0c0c21af07690c12c97592b40b2",
+        "authority": {
+          "grant_nonce": "synthetic-grant",
+          "principal": "synthetic-operator",
+          "reviewer": "synthetic-reviewer"
+        },
+        "authorized": true,
+        "diagnostics": {},
+        "kind": "decision",
+        "observation": {
+          "positions_m": {
+            "arm": "0.0112"
+          },
+          "setpoints": {
+            "arm": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.14"
+            }
+          }
+        },
+        "reason": "allowed"
+      }
+    },
+    {
+      "adapter_calls": 8,
+      "at_ms": 180,
+      "event": 9,
+      "parameters": {
+        "gain": {
+          "dimension": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "value": "0.7"
+        }
+      },
+      "result": {
+        "action": {
+          "at_ms": 180,
+          "outputs": {
+            "arm": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.14"
+            }
+          },
+          "session": "simulation-f54ba709696ae8fa396f",
+          "source_sha256": "ad400b5b1a83c21a169bdab94c35e32c52dfb2d8b762235eb8accc5537924552",
+          "state": "moving",
+          "tick": 9
+        },
+        "action_sha256": "ca44f785720342ac0c71071992a5bb4d945ddf9e41b9e7b4721e72c22abed1e0",
+        "authority": {
+          "grant_nonce": "synthetic-grant",
+          "principal": "synthetic-operator",
+          "reviewer": "synthetic-reviewer"
+        },
+        "authorized": true,
+        "diagnostics": {},
+        "kind": "decision",
+        "observation": {
+          "positions_m": {
+            "arm": "0.014"
+          },
+          "setpoints": {
+            "arm": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0.14"
+            }
+          }
+        },
+        "reason": "allowed"
+      }
+    },
+    {
+      "adapter_calls": 8,
+      "at_ms": 200,
+      "event": 10,
+      "parameters": {
+        "gain": {
+          "dimension": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "value": "0.7"
+        }
+      },
+      "result": {
+        "action": {
+          "at_ms": 200,
+          "outputs": {
+            "arm": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0"
+            }
+          },
+          "session": "simulation-f54ba709696ae8fa396f",
+          "source_sha256": "ad400b5b1a83c21a169bdab94c35e32c52dfb2d8b762235eb8accc5537924552",
+          "state": "idle",
+          "tick": 10
+        },
+        "action_sha256": "8145ad3dfb48881ecf97452faca00aef129c16366dac7f45dffd8808d00ca2ae",
+        "authorized": false,
+        "diagnostics": {},
+        "kind": "decision",
+        "observation": {
+          "positions_m": {
+            "arm": "0.014"
+          },
+          "setpoints": {
+            "arm": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0"
+            }
+          }
+        },
+        "reason": "idle",
+        "stop_confirmed": true
+      }
+    },
+    {
+      "adapter_calls": 8,
+      "at_ms": 220,
+      "event": 11,
+      "parameters": {
+        "gain": {
+          "dimension": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "value": "0.7"
+        }
+      },
+      "result": {
+        "action": {
+          "at_ms": 220,
+          "outputs": {
+            "arm": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0"
+            }
+          },
+          "session": "simulation-f54ba709696ae8fa396f",
+          "source_sha256": "ad400b5b1a83c21a169bdab94c35e32c52dfb2d8b762235eb8accc5537924552",
+          "state": "idle",
+          "tick": 11
+        },
+        "action_sha256": "c504802945c024b983022e4c2ec3959d3ac3de5473b627bda96bd8db39d1737b",
+        "authorized": false,
+        "diagnostics": {},
+        "kind": "decision",
+        "observation": {
+          "positions_m": {
+            "arm": "0.014"
+          },
+          "setpoints": {
+            "arm": {
+              "dimension": [
+                1,
+                0,
+                -1,
+                0
+              ],
+              "value": "0"
+            }
+          }
+        },
+        "reason": "idle",
+        "stop_confirmed": true
+      }
+    }
+  ],
+  "verification": {
+    "authenticated": false,
+    "head": "a2ad3a40e700b88314310925f3963329e856b3e08dd24334e301b014bcf150a1",
+    "records": 24,
+    "unresolved_authorizations": [],
+    "valid": true
+  }
+}

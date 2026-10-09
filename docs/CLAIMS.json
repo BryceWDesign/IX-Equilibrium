@@ -1,0 +1,135 @@
+{
+  "release": "0.1.0",
+  "scope": "trusted-host research supervisory software",
+  "implemented": [
+    {
+      "id": "dimensional_checking",
+      "claim": "Reject incompatible units before execution",
+      "test_file": "tests/test_language.py",
+      "test_method": "test_command_dimension"
+    },
+    {
+      "id": "source_capability_is_not_grant",
+      "claim": "Deny active effects without separate host grant",
+      "test_file": "tests/test_runtime.py",
+      "test_method": "test_source_declarations_cannot_grant_authority"
+    },
+    {
+      "id": "sensor_freshness",
+      "claim": "Required stale channels stop before further dispatch",
+      "test_file": "tests/test_runtime.py",
+      "test_method": "test_stale_sensor_stops_running_plant"
+    },
+    {
+      "id": "conservative_uncertainty",
+      "claim": "Overlapping guard interval denies a step",
+      "test_file": "tests/test_runtime.py",
+      "test_method": "test_uncertainty_crossing_guard_denied"
+    },
+    {
+      "id": "mesh_dissent",
+      "claim": "An available dissenting member vetoes quorum",
+      "test_file": "tests/test_runtime.py",
+      "test_method": "test_mesh_dissent_is_not_silently_discarded"
+    },
+    {
+      "id": "bounded_adaptation",
+      "claim": "Limit parameter change and preserve prospective invariants",
+      "test_file": "tests/test_runtime.py",
+      "test_method": "test_adaptation_cannot_break_invariant"
+    },
+    {
+      "id": "exact_action_review",
+      "claim": "Review MAC is bound to precise action digest",
+      "test_file": "tests/test_boundaries.py",
+      "test_method": "test_exact_command_binding"
+    },
+    {
+      "id": "review_single_use",
+      "claim": "One review succeeds across eight concurrent consumers",
+      "test_file": "tests/test_boundaries.py",
+      "test_method": "test_review_atomic_single_use_under_contention"
+    },
+    {
+      "id": "durable_pre_dispatch",
+      "claim": "Independent connection witnesses commit before file effect",
+      "test_file": "tests/test_runtime.py",
+      "test_method": "test_independent_connection_witnesses_committed_authorization"
+    },
+    {
+      "id": "pre_evidence_failure",
+      "claim": "No active adapter call if pre-dispatch commit fails",
+      "test_file": "tests/test_runtime.py",
+      "test_method": "test_pre_dispatch_evidence_failure_blocks"
+    },
+    {
+      "id": "post_evidence_failure",
+      "claim": "Report unresolved effect without claiming rollback",
+      "test_file": "tests/test_runtime.py",
+      "test_method": "test_post_dispatch_evidence_failure_reports_unresolved"
+    },
+    {
+      "id": "post_commit_recheck",
+      "claim": "Changed sensor snapshot blocks dispatch after commit",
+      "test_file": "tests/test_runtime.py",
+      "test_method": "test_sensor_change_after_commit_blocks_adapter"
+    },
+    {
+      "id": "journal_concurrency",
+      "claim": "Two independent writers append one validated chain",
+      "test_file": "tests/test_boundaries.py",
+      "test_method": "test_independent_writers_keep_one_chain"
+    },
+    {
+      "id": "anchored_integrity",
+      "claim": "Retained head detects tail removal",
+      "test_file": "tests/test_boundaries.py",
+      "test_method": "test_pinned_head_detects_rehashed_truncation"
+    },
+    {
+      "id": "deterministic_replay",
+      "claim": "All included scenarios reproduce exact complete bundles",
+      "test_file": "tests/test_runtime.py",
+      "test_method": "test_all_scenarios_replay_exactly"
+    },
+    {
+      "id": "finite_exploration",
+      "claim": "Enumerate bounded synthetic choices and record counterexamples",
+      "test_file": "tests/test_runtime.py",
+      "test_method": "test_finite_exploration_includes_safe_and_stop_paths"
+    },
+    {
+      "id": "authenticated_sensor_io",
+      "claim": "HMAC-bound sensor packets accepted over real UDP loopback",
+      "test_file": "tests/test_transport.py",
+      "test_method": "test_real_loopback_authenticated_sample"
+    },
+    {
+      "id": "host_file_effect",
+      "claim": "Allowed SDK demo writes command, denied demo does not",
+      "test_file": "tests/test_cli.py",
+      "test_method": "test_live_host_demo_admits_and_denies_real_file_effect"
+    }
+  ],
+  "not_implemented": [
+    "native code generation",
+    "Rust backend",
+    "ROS 2 adapter",
+    "coordinate frames and vectors",
+    "hard real-time watchdog",
+    "physical robot validation",
+    "certified safety",
+    "public-key-signed evidence",
+    "durable revocation service",
+    "distributed actuator atomicity",
+    "EEG decoding",
+    "AGI"
+  ],
+  "limitations": [
+    "Synthetic simulator authority is not a human identity.",
+    "A successful adapter stop return is not independently verified physical stopping.",
+    "Hash chains are unsigned and need independent retained heads.",
+    "Finite enumeration is not a general safety or stability proof.",
+    "Journal full replay per append is not validated for high-rate operation."
+  ]
+}

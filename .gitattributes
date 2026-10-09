@@ -1,0 +1,10 @@
+* text=auto eol=lf
+*.py text eol=lf
+*.eq text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.ps1 text eol=lf
+
+*.whl binary
+*.gz binary

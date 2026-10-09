@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ix-equilibrium"
+version = "0.1.0"
+description = "A checked coordination language for humans, agents, sensors and bounded actuator commands"
+requires-python = ">=3.11"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+authors = [{name = "Bryce Lovell"}]
+dependencies = []
+
+[project.scripts]
+equilibrium = "equilibrium.cli:main"
+
+[project.urls]
+Repository = "https://github.com/BryceWDesign/IX-Equilibrium"
+
+[tool.setuptools]
+packages = ["equilibrium"]
+

@@ -1,0 +1,474 @@
+{
+  "events": [
+    {
+      "at_ms": 0,
+      "samples": [
+        {
+          "at_ms": 0,
+          "channel": "a",
+          "sequence": 0,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "300"
+        },
+        {
+          "at_ms": 0,
+          "channel": "b",
+          "sequence": 0,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "300.1"
+        },
+        {
+          "at_ms": 0,
+          "channel": "c",
+          "sequence": 0,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "299.9"
+        },
+        {
+          "at_ms": 0,
+          "channel": "consent",
+          "sequence": 0,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 50,
+      "samples": [
+        {
+          "at_ms": 50,
+          "channel": "a",
+          "sequence": 1,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "300"
+        },
+        {
+          "at_ms": 50,
+          "channel": "b",
+          "sequence": 1,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "300.1"
+        },
+        {
+          "at_ms": 50,
+          "channel": "c",
+          "sequence": 1,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "299.9"
+        },
+        {
+          "at_ms": 50,
+          "channel": "consent",
+          "sequence": 1,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 100,
+      "samples": [
+        {
+          "at_ms": 100,
+          "channel": "a",
+          "sequence": 2,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "300"
+        },
+        {
+          "at_ms": 100,
+          "channel": "b",
+          "sequence": 2,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "300.1"
+        },
+        {
+          "at_ms": 100,
+          "channel": "c",
+          "sequence": 2,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "299.9"
+        },
+        {
+          "at_ms": 100,
+          "channel": "consent",
+          "sequence": 2,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 150,
+      "samples": [
+        {
+          "at_ms": 150,
+          "channel": "a",
+          "sequence": 3,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "300"
+        },
+        {
+          "at_ms": 150,
+          "channel": "b",
+          "sequence": 3,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "300.1"
+        },
+        {
+          "at_ms": 150,
+          "channel": "c",
+          "sequence": 3,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "299.9"
+        },
+        {
+          "at_ms": 150,
+          "channel": "consent",
+          "sequence": 3,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 200,
+      "samples": [
+        {
+          "at_ms": 200,
+          "channel": "a",
+          "sequence": 4,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "300"
+        },
+        {
+          "at_ms": 200,
+          "channel": "b",
+          "sequence": 4,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "300.1"
+        },
+        {
+          "at_ms": 200,
+          "channel": "c",
+          "sequence": 4,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "299.9"
+        },
+        {
+          "at_ms": 200,
+          "channel": "consent",
+          "sequence": 4,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 250,
+      "samples": [
+        {
+          "at_ms": 250,
+          "channel": "a",
+          "sequence": 5,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "300"
+        },
+        {
+          "at_ms": 250,
+          "channel": "b",
+          "sequence": 5,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "300.1"
+        },
+        {
+          "at_ms": 250,
+          "channel": "c",
+          "sequence": 5,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "299.9"
+        },
+        {
+          "at_ms": 250,
+          "channel": "consent",
+          "sequence": 5,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 300,
+      "samples": [
+        {
+          "at_ms": 300,
+          "channel": "a",
+          "sequence": 6,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "300"
+        },
+        {
+          "at_ms": 300,
+          "channel": "b",
+          "sequence": 6,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "300.1"
+        },
+        {
+          "at_ms": 300,
+          "channel": "c",
+          "sequence": 6,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "299.9"
+        },
+        {
+          "at_ms": 300,
+          "channel": "consent",
+          "sequence": 6,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 350,
+      "samples": [
+        {
+          "at_ms": 350,
+          "channel": "a",
+          "sequence": 7,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "300"
+        },
+        {
+          "at_ms": 350,
+          "channel": "b",
+          "sequence": 7,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "300.1"
+        },
+        {
+          "at_ms": 350,
+          "channel": "c",
+          "sequence": 7,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "299.9"
+        },
+        {
+          "at_ms": 350,
+          "channel": "consent",
+          "sequence": 7,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 400,
+      "samples": [
+        {
+          "at_ms": 400,
+          "channel": "a",
+          "sequence": 8,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "300"
+        },
+        {
+          "at_ms": 400,
+          "channel": "b",
+          "sequence": 8,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "300.1"
+        },
+        {
+          "at_ms": 400,
+          "channel": "c",
+          "sequence": 8,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "299.9"
+        },
+        {
+          "at_ms": 400,
+          "channel": "consent",
+          "sequence": 8,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 450,
+      "samples": [
+        {
+          "at_ms": 450,
+          "channel": "a",
+          "sequence": 9,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "300"
+        },
+        {
+          "at_ms": 450,
+          "channel": "b",
+          "sequence": 9,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "300.1"
+        },
+        {
+          "at_ms": 450,
+          "channel": "c",
+          "sequence": 9,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "299.9"
+        },
+        {
+          "at_ms": 450,
+          "channel": "consent",
+          "sequence": 9,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 500,
+      "samples": [
+        {
+          "at_ms": 500,
+          "channel": "a",
+          "sequence": 10,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "300"
+        },
+        {
+          "at_ms": 500,
+          "channel": "b",
+          "sequence": 10,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "300.1"
+        },
+        {
+          "at_ms": 500,
+          "channel": "c",
+          "sequence": 10,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "299.9"
+        },
+        {
+          "at_ms": 500,
+          "channel": "consent",
+          "sequence": 10,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 550,
+      "samples": [
+        {
+          "at_ms": 550,
+          "channel": "a",
+          "sequence": 11,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "300"
+        },
+        {
+          "at_ms": 550,
+          "channel": "b",
+          "sequence": 11,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "300.1"
+        },
+        {
+          "at_ms": 550,
+          "channel": "c",
+          "sequence": 11,
+          "uncertainty": "0",
+          "unit": "K",
+          "value": "299.9"
+        },
+        {
+          "at_ms": 550,
+          "channel": "consent",
+          "sequence": 11,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    }
+  ],
+  "format": "equilibrium.scenario/1",
+  "name": "thermal_mesh-success"
+}

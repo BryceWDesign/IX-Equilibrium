@@ -1,0 +1,570 @@
+{
+  "events": [
+    {
+      "at_ms": 0,
+      "samples": [
+        {
+          "at_ms": 0,
+          "channel": "vision",
+          "sequence": 0,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 0,
+          "channel": "proximity",
+          "sequence": 0,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 0,
+          "channel": "tactile",
+          "sequence": 0,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 0,
+          "channel": "load",
+          "sequence": 0,
+          "uncertainty": "0.1",
+          "unit": "N",
+          "value": "1"
+        },
+        {
+          "at_ms": 0,
+          "channel": "intent",
+          "sequence": 0,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": false
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 20,
+      "samples": [
+        {
+          "at_ms": 20,
+          "channel": "vision",
+          "sequence": 1,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 20,
+          "channel": "proximity",
+          "sequence": 1,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 20,
+          "channel": "tactile",
+          "sequence": 1,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 20,
+          "channel": "load",
+          "sequence": 1,
+          "uncertainty": "0.1",
+          "unit": "N",
+          "value": "1"
+        },
+        {
+          "at_ms": 20,
+          "channel": "intent",
+          "sequence": 1,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": false
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 40,
+      "samples": [
+        {
+          "at_ms": 40,
+          "channel": "vision",
+          "sequence": 2,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 40,
+          "channel": "proximity",
+          "sequence": 2,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 40,
+          "channel": "tactile",
+          "sequence": 2,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 40,
+          "channel": "load",
+          "sequence": 2,
+          "uncertainty": "0.1",
+          "unit": "N",
+          "value": "1"
+        },
+        {
+          "at_ms": 40,
+          "channel": "intent",
+          "sequence": 2,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 60,
+      "samples": [
+        {
+          "at_ms": 60,
+          "channel": "vision",
+          "sequence": 3,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 60,
+          "channel": "proximity",
+          "sequence": 3,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 60,
+          "channel": "tactile",
+          "sequence": 3,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 60,
+          "channel": "load",
+          "sequence": 3,
+          "uncertainty": "0.1",
+          "unit": "N",
+          "value": "1"
+        },
+        {
+          "at_ms": 60,
+          "channel": "intent",
+          "sequence": 3,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 80,
+      "samples": [
+        {
+          "at_ms": 80,
+          "channel": "vision",
+          "sequence": 4,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 80,
+          "channel": "proximity",
+          "sequence": 4,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 80,
+          "channel": "tactile",
+          "sequence": 4,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 80,
+          "channel": "load",
+          "sequence": 4,
+          "uncertainty": "0.1",
+          "unit": "N",
+          "value": "1"
+        },
+        {
+          "at_ms": 80,
+          "channel": "intent",
+          "sequence": 4,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 100,
+      "samples": [
+        {
+          "at_ms": 100,
+          "channel": "vision",
+          "sequence": 5,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 100,
+          "channel": "proximity",
+          "sequence": 5,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 100,
+          "channel": "tactile",
+          "sequence": 5,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 100,
+          "channel": "load",
+          "sequence": 5,
+          "uncertainty": "0.1",
+          "unit": "N",
+          "value": "1"
+        },
+        {
+          "at_ms": 100,
+          "channel": "intent",
+          "sequence": 5,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 120,
+      "samples": [
+        {
+          "at_ms": 120,
+          "channel": "vision",
+          "sequence": 6,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 120,
+          "channel": "proximity",
+          "sequence": 6,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 120,
+          "channel": "tactile",
+          "sequence": 6,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 120,
+          "channel": "load",
+          "sequence": 6,
+          "uncertainty": "0.1",
+          "unit": "N",
+          "value": "1"
+        },
+        {
+          "at_ms": 120,
+          "channel": "intent",
+          "sequence": 6,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 140,
+      "samples": [
+        {
+          "at_ms": 140,
+          "channel": "vision",
+          "sequence": 7,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 140,
+          "channel": "proximity",
+          "sequence": 7,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 140,
+          "channel": "tactile",
+          "sequence": 7,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 140,
+          "channel": "load",
+          "sequence": 7,
+          "uncertainty": "0.1",
+          "unit": "N",
+          "value": "1"
+        },
+        {
+          "at_ms": 140,
+          "channel": "intent",
+          "sequence": 7,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 160,
+      "samples": [
+        {
+          "at_ms": 160,
+          "channel": "vision",
+          "sequence": 8,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 160,
+          "channel": "proximity",
+          "sequence": 8,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 160,
+          "channel": "tactile",
+          "sequence": 8,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 160,
+          "channel": "load",
+          "sequence": 8,
+          "uncertainty": "0.1",
+          "unit": "N",
+          "value": "1"
+        },
+        {
+          "at_ms": 160,
+          "channel": "intent",
+          "sequence": 8,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 180,
+      "samples": [
+        {
+          "at_ms": 180,
+          "channel": "vision",
+          "sequence": 9,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 180,
+          "channel": "proximity",
+          "sequence": 9,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 180,
+          "channel": "tactile",
+          "sequence": 9,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 180,
+          "channel": "load",
+          "sequence": 9,
+          "uncertainty": "0.1",
+          "unit": "N",
+          "value": "1"
+        },
+        {
+          "at_ms": 180,
+          "channel": "intent",
+          "sequence": 9,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 200,
+      "samples": [
+        {
+          "at_ms": 200,
+          "channel": "vision",
+          "sequence": 10,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 200,
+          "channel": "proximity",
+          "sequence": 10,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 200,
+          "channel": "tactile",
+          "sequence": 10,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 200,
+          "channel": "load",
+          "sequence": 10,
+          "uncertainty": "0.1",
+          "unit": "N",
+          "value": "1"
+        },
+        {
+          "at_ms": 200,
+          "channel": "intent",
+          "sequence": 10,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": false
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 220,
+      "samples": [
+        {
+          "at_ms": 220,
+          "channel": "vision",
+          "sequence": 11,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 220,
+          "channel": "proximity",
+          "sequence": 11,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 220,
+          "channel": "tactile",
+          "sequence": 11,
+          "uncertainty": "0.01",
+          "unit": "m",
+          "value": "0.7"
+        },
+        {
+          "at_ms": 220,
+          "channel": "load",
+          "sequence": 11,
+          "uncertainty": "0.1",
+          "unit": "N",
+          "value": "1"
+        },
+        {
+          "at_ms": 220,
+          "channel": "intent",
+          "sequence": 11,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": false
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    }
+  ],
+  "format": "equilibrium.scenario/1",
+  "name": "adaptive-assist-success"
+}

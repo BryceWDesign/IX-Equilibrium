@@ -1,0 +1,11 @@
+IX-Equilibrium
+Copyright 2026 Bryce Lovell
+
+Licensed under the Apache License, Version 2.0.
+
+The implementation in equilibrium/ is new code. Architecture was informed by
+the author's IX, IX-Decriel, IX-HapticSight, SynapDrive-AI, IX-BlackFox and
+IX-Sally projects. No donor implementation source is included or linked.
+The standard Apache license text was obtained from IX-Decriel's LICENSE.
+See docs/DONOR_AUDIT.md and docs/donor-archives.json for provenance.
+

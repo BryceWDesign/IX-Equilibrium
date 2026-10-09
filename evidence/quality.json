@@ -1,0 +1,326 @@
+{
+  "campaign": {
+    "cases": [
+      {
+        "adapter_calls": 0,
+        "name": "missing_grant",
+        "passed": true,
+        "reason": "malformed authority token",
+        "unresolved": []
+      },
+      {
+        "adapter_calls": 0,
+        "name": "missing_review",
+        "passed": true,
+        "reason": "malformed authority token",
+        "unresolved": []
+      },
+      {
+        "adapter_calls": 0,
+        "name": "revoked_grant",
+        "passed": true,
+        "reason": "grant scope, revocation or validity failed",
+        "unresolved": []
+      },
+      {
+        "adapter_calls": 0,
+        "name": "pre_evidence_failure",
+        "passed": true,
+        "reason": "injected evidence failure",
+        "unresolved": []
+      },
+      {
+        "adapter_calls": 1,
+        "name": "post_evidence_failure",
+        "passed": true,
+        "reason": "injected evidence failure",
+        "unresolved": [
+          "1defd5c968f251a7240cd2154eae57f6410fa1feefb262242786867f9729c8b8"
+        ]
+      },
+      {
+        "adapter_calls": 0,
+        "name": "adapter_failure",
+        "passed": true,
+        "reason": "injected adapter failure",
+        "unresolved": [
+          "39c2b4ed395546f69b47a9ba1620c77c8058426e5bd5b5277772cec3ecb0c4c7"
+        ]
+      },
+      {
+        "adapter_calls": 0,
+        "name": "stop_failure",
+        "passed": true,
+        "reason": "malformed authority token",
+        "unresolved": []
+      },
+      {
+        "adapter_calls": 0,
+        "name": "sensor_future",
+        "passed": true,
+        "reason": "sample_rejected:invalid sample load: sample timestamp is negative or in the future",
+        "unresolved": []
+      },
+      {
+        "adapter_calls": 0,
+        "name": "sensor_replay",
+        "passed": true,
+        "reason": "sample_rejected:invalid sample load: sample sequence replay",
+        "unresolved": []
+      },
+      {
+        "adapter_calls": 0,
+        "name": "sensor_uncertainty",
+        "passed": true,
+        "reason": "sample_rejected:invalid sample load: sample uncertainty exceeds ceiling",
+        "unresolved": []
+      },
+      {
+        "adapter_calls": 0,
+        "name": "mesh_disagreement",
+        "passed": true,
+        "reason": "unavailable:clearance",
+        "unresolved": []
+      },
+      {
+        "adapter_calls": 0,
+        "name": "load_veto",
+        "passed": true,
+        "reason": "invariant:contact_load",
+        "unresolved": []
+      },
+      {
+        "adapter_calls": 0,
+        "name": "uncertain_clearance",
+        "passed": true,
+        "reason": "uncertain_predicate",
+        "unresolved": []
+      }
+    ],
+    "format": "equilibrium.campaign/1",
+    "passed": true
+  },
+  "errors": 0,
+  "examples": [
+    {
+      "adapter_calls": 8,
+      "bundle_sha256": "871116b3464d4517d0628e0a638d263912a005b5894183c334bf30d7d68565c8",
+      "name": "assist.eq",
+      "source_sha256": "ad400b5b1a83c21a169bdab94c35e32c52dfb2d8b762235eb8accc5537924552",
+      "steps": 12
+    },
+    {
+      "adapter_calls": 12,
+      "bundle_sha256": "66cbd1732ddf8a30a29223f9e8665f3ebab32ec85de7defbe35da766562e9932",
+      "name": "shared_control.eq",
+      "source_sha256": "ae8a9febbc38768a436ddd3344f136157e288e7b99c24f72233f50048a4eb3f3",
+      "steps": 12
+    },
+    {
+      "adapter_calls": 10,
+      "bundle_sha256": "b99b324e05ba89489284a2d434e12424e6ed5102b370ebe256946969907ba99f",
+      "name": "thermal_mesh.eq",
+      "source_sha256": "8f5c76be2749fcc352e6c7502232e2c31c965ca60b1c38af752e1b186203c315",
+      "steps": 11
+    }
+  ],
+  "exploration": {
+    "counterexamples": [
+      {
+        "choices": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "reason": "require:moving"
+      },
+      {
+        "choices": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "reason": "require:moving"
+      },
+      {
+        "choices": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "reason": "require:moving"
+      },
+      {
+        "choices": [
+          0,
+          0,
+          1,
+          2
+        ],
+        "reason": "require:moving"
+      },
+      {
+        "choices": [
+          0,
+          0,
+          2,
+          1
+        ],
+        "reason": "require:moving"
+      },
+      {
+        "choices": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "reason": "require:moving"
+      },
+      {
+        "choices": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "reason": "require:moving"
+      },
+      {
+        "choices": [
+          0,
+          1,
+          0,
+          2
+        ],
+        "reason": "require:moving"
+      },
+      {
+        "choices": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "reason": "require:moving"
+      },
+      {
+        "choices": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "reason": "require:moving"
+      },
+      {
+        "choices": [
+          0,
+          1,
+          1,
+          2
+        ],
+        "reason": "require:moving"
+      },
+      {
+        "choices": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "reason": "require:moving"
+      },
+      {
+        "choices": [
+          0,
+          1,
+          2,
+          1
+        ],
+        "reason": "require:moving"
+      },
+      {
+        "choices": [
+          0,
+          1,
+          2,
+          2
+        ],
+        "reason": "require:moving"
+      },
+      {
+        "choices": [
+          0,
+          2,
+          0,
+          1
+        ],
+        "reason": "require:moving"
+      },
+      {
+        "choices": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "reason": "require:moving"
+      },
+      {
+        "choices": [
+          0,
+          2,
+          1,
+          1
+        ],
+        "reason": "require:moving"
+      },
+      {
+        "choices": [
+          0,
+          2,
+          1,
+          2
+        ],
+        "reason": "require:moving"
+      },
+      {
+        "choices": [
+          0,
+          2,
+          2,
+          1
+        ],
+        "reason": "require:moving"
+      },
+      {
+        "choices": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "reason": "require:moving"
+      }
+    ],
+    "depth": 4,
+    "format": "equilibrium.exploration/1",
+    "general_safety_proof": false,
+    "outcomes": {
+      "allowed": 8,
+      "idle": 8,
+      "require:moving": 65
+    },
+    "runs": 81,
+    "scope": "finite synthetic input enumeration"
+  },
+  "failures": 0,
+  "passed": true,
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "python": "3.12.14",
+  "tests_run": 156
+}

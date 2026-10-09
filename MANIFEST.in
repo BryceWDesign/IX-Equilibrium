@@ -1,0 +1,9 @@
+include LICENSE NOTICE README.md VALIDATION_REPORT.md HANDOFF.md CHANGELOG.md
+include .gitignore .gitattributes
+recursive-include docs *.md *.json *.ebnf
+recursive-include examples *.eq *.json *.py
+recursive-include tests *.py
+recursive-include scripts *.py *.ps1
+recursive-include evidence *.json *.html
+recursive-include .github *.yml
+

@@ -1,0 +1,36 @@
+program = "system", identifier, "{", declaration*, "}" ;
+declaration = tick | channel | mesh | parameter | actuator | capability
+            | invariant | state | fault ;
+tick = "tick", quantity, ";" ;
+channel = ("sensor" | "input"), identifier, ":", unit, "fresh", quantity,
+          ("uncertainty", quantity)?, ";" ;
+mesh = "mesh", identifier, ":", unit, "=", "quorum", "(", identifier,
+       (",", identifier)*, ")", "tolerance", quantity, "require", integer, ";" ;
+parameter = "param", identifier, ":", unit, "=", quantity, "within", bounds,
+            "rate", quantity, ";" ;
+actuator = "actuator", identifier, ":", unit, "range", bounds,
+           "safe", quantity, "slew", quantity, ";" ;
+capability = "capability", "command", identifier, ";" ;
+invariant = "invariant", identifier, ":", expression, ";" ;
+fault = "on", "fault", "->", identifier, ";" ;
+state = "state", identifier, ("initial" | "terminal")?, "{", statement*, "}" ;
+statement = "require", expression, ";"
+          | ("command" | "adapt"), identifier, "=", expression, ";"
+          | "when", expression, "->", identifier, ";"
+          | "after", quantity, "->", identifier, ";" ;
+bounds = "[", quantity, ",", quantity, "]" ;
+quantity = "-"?, number, numeric_unit? ;
+expression = primary, (binary_operator, primary)* ;
+primary = quantity | "true" | "false" | identifier
+        | "(", expression, ")" | ("-" | "not"), primary
+        | identifier, "(", (expression, (",", expression)*)?, ")" ;
+binary_operator = "or" | "and" | "==" | "!=" | "<" | "<=" | ">" | ">="
+                | "+" | "-" | "*" | "/" ;
+unit = numeric_unit | "bool" ;
+numeric_unit = "scalar" | "rad" | "m" | "cm" | "mm" | "s" | "ms"
+             | "kg" | "N" | "Pa" | "kPa" | "mps" | "mps2" | "Hz" | "K" ;
+identifier = (ascii_letter | "_"), (ascii_letter | digit | "_")* ;
+integer = digit+ ;
+number = digit+, (".", digit+)? ;
+(* Expression precedence and semantic constraints are specified in LANGUAGE.md.
+   Whitespace and // line comments are ignored between tokens. *)

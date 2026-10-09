@@ -1,0 +1,26 @@
+[
+  {
+    "archive": "IX-BlackFox-main(20261008-004356).zip",
+    "sha256": "24b64a2e4f4f5b063553af008992d4e0647d313f4c33d8ce0a9d2695e598bd0b"
+  },
+  {
+    "archive": "IX-Decriel-main(9).zip",
+    "sha256": "9b95d50c2467d2840cc70f4c47df946aefafaf84f413bc01428a7131928ca022"
+  },
+  {
+    "archive": "IX-HapticSight-main(20261008-004355).zip",
+    "sha256": "4423e55c5837bca07e225fc14be9e0b785770d86e9ec9cf8a642c18495e2dbea"
+  },
+  {
+    "archive": "IX-Sally-main(20261008-004355).zip",
+    "sha256": "2b55b1e2837eb37c631c87fe9a1f52f31c279a7a24e6c815c2ae71f92c8441cc"
+  },
+  {
+    "archive": "IX-main(20261008-004355).zip",
+    "sha256": "bd0628860ed8ddf68956bc637346305dff3efd390ff452321d0f362ad26b8357"
+  },
+  {
+    "archive": "SynapDrive-AI-main(20261008-004356).zip",
+    "sha256": "6d2c0c2cea909df20a410f2b996085f5b43794ba934b59a8377ebc1e8d8b64e6"
+  }
+]

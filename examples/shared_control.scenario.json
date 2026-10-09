@@ -1,0 +1,378 @@
+{
+  "events": [
+    {
+      "at_ms": 0,
+      "samples": [
+        {
+          "at_ms": 0,
+          "channel": "operator",
+          "sequence": 0,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        },
+        {
+          "at_ms": 0,
+          "channel": "requested",
+          "sequence": 0,
+          "uncertainty": "0",
+          "unit": "mps",
+          "value": "0.08"
+        },
+        {
+          "at_ms": 0,
+          "channel": "distance",
+          "sequence": 0,
+          "uncertainty": "0",
+          "unit": "m",
+          "value": "0.8"
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 10,
+      "samples": [
+        {
+          "at_ms": 10,
+          "channel": "operator",
+          "sequence": 1,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        },
+        {
+          "at_ms": 10,
+          "channel": "requested",
+          "sequence": 1,
+          "uncertainty": "0",
+          "unit": "mps",
+          "value": "0.08"
+        },
+        {
+          "at_ms": 10,
+          "channel": "distance",
+          "sequence": 1,
+          "uncertainty": "0",
+          "unit": "m",
+          "value": "0.8"
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 20,
+      "samples": [
+        {
+          "at_ms": 20,
+          "channel": "operator",
+          "sequence": 2,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        },
+        {
+          "at_ms": 20,
+          "channel": "requested",
+          "sequence": 2,
+          "uncertainty": "0",
+          "unit": "mps",
+          "value": "0.08"
+        },
+        {
+          "at_ms": 20,
+          "channel": "distance",
+          "sequence": 2,
+          "uncertainty": "0",
+          "unit": "m",
+          "value": "0.8"
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 30,
+      "samples": [
+        {
+          "at_ms": 30,
+          "channel": "operator",
+          "sequence": 3,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        },
+        {
+          "at_ms": 30,
+          "channel": "requested",
+          "sequence": 3,
+          "uncertainty": "0",
+          "unit": "mps",
+          "value": "0.08"
+        },
+        {
+          "at_ms": 30,
+          "channel": "distance",
+          "sequence": 3,
+          "uncertainty": "0",
+          "unit": "m",
+          "value": "0.8"
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 40,
+      "samples": [
+        {
+          "at_ms": 40,
+          "channel": "operator",
+          "sequence": 4,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        },
+        {
+          "at_ms": 40,
+          "channel": "requested",
+          "sequence": 4,
+          "uncertainty": "0",
+          "unit": "mps",
+          "value": "0.08"
+        },
+        {
+          "at_ms": 40,
+          "channel": "distance",
+          "sequence": 4,
+          "uncertainty": "0",
+          "unit": "m",
+          "value": "0.8"
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 50,
+      "samples": [
+        {
+          "at_ms": 50,
+          "channel": "operator",
+          "sequence": 5,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        },
+        {
+          "at_ms": 50,
+          "channel": "requested",
+          "sequence": 5,
+          "uncertainty": "0",
+          "unit": "mps",
+          "value": "0.08"
+        },
+        {
+          "at_ms": 50,
+          "channel": "distance",
+          "sequence": 5,
+          "uncertainty": "0",
+          "unit": "m",
+          "value": "0.8"
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 60,
+      "samples": [
+        {
+          "at_ms": 60,
+          "channel": "operator",
+          "sequence": 6,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        },
+        {
+          "at_ms": 60,
+          "channel": "requested",
+          "sequence": 6,
+          "uncertainty": "0",
+          "unit": "mps",
+          "value": "0.08"
+        },
+        {
+          "at_ms": 60,
+          "channel": "distance",
+          "sequence": 6,
+          "uncertainty": "0",
+          "unit": "m",
+          "value": "0.8"
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 70,
+      "samples": [
+        {
+          "at_ms": 70,
+          "channel": "operator",
+          "sequence": 7,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        },
+        {
+          "at_ms": 70,
+          "channel": "requested",
+          "sequence": 7,
+          "uncertainty": "0",
+          "unit": "mps",
+          "value": "0.08"
+        },
+        {
+          "at_ms": 70,
+          "channel": "distance",
+          "sequence": 7,
+          "uncertainty": "0",
+          "unit": "m",
+          "value": "0.8"
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 80,
+      "samples": [
+        {
+          "at_ms": 80,
+          "channel": "operator",
+          "sequence": 8,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        },
+        {
+          "at_ms": 80,
+          "channel": "requested",
+          "sequence": 8,
+          "uncertainty": "0",
+          "unit": "mps",
+          "value": "0.08"
+        },
+        {
+          "at_ms": 80,
+          "channel": "distance",
+          "sequence": 8,
+          "uncertainty": "0",
+          "unit": "m",
+          "value": "0.8"
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 90,
+      "samples": [
+        {
+          "at_ms": 90,
+          "channel": "operator",
+          "sequence": 9,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        },
+        {
+          "at_ms": 90,
+          "channel": "requested",
+          "sequence": 9,
+          "uncertainty": "0",
+          "unit": "mps",
+          "value": "0.08"
+        },
+        {
+          "at_ms": 90,
+          "channel": "distance",
+          "sequence": 9,
+          "uncertainty": "0",
+          "unit": "m",
+          "value": "0.8"
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 100,
+      "samples": [
+        {
+          "at_ms": 100,
+          "channel": "operator",
+          "sequence": 10,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        },
+        {
+          "at_ms": 100,
+          "channel": "requested",
+          "sequence": 10,
+          "uncertainty": "0",
+          "unit": "mps",
+          "value": "0.08"
+        },
+        {
+          "at_ms": 100,
+          "channel": "distance",
+          "sequence": 10,
+          "uncertainty": "0",
+          "unit": "m",
+          "value": "0.8"
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    },
+    {
+      "at_ms": 110,
+      "samples": [
+        {
+          "at_ms": 110,
+          "channel": "operator",
+          "sequence": 11,
+          "uncertainty": "0",
+          "unit": "bool",
+          "value": true
+        },
+        {
+          "at_ms": 110,
+          "channel": "requested",
+          "sequence": 11,
+          "uncertainty": "0",
+          "unit": "mps",
+          "value": "0.08"
+        },
+        {
+          "at_ms": 110,
+          "channel": "distance",
+          "sequence": 11,
+          "uncertainty": "0",
+          "unit": "m",
+          "value": "0.8"
+        }
+      ],
+      "simulation_grant": true,
+      "simulation_review": true
+    }
+  ],
+  "format": "equilibrium.scenario/1",
+  "name": "shared_control-success"
+}

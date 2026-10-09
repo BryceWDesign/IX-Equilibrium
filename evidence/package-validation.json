@@ -1,0 +1,14 @@
+{
+  "wheel": "ix_equilibrium-0.1.0-py3-none-any.whl",
+  "sha256": "35737ec29191a8214221ec33df81f3b744dc1086ea816398ba485949ba0d6dae",
+  "build_passed": true,
+  "isolated_target_install_passed": true,
+  "installed_cli_version": "0.1.0",
+  "installed_check_run_replay_passed": true,
+  "installed_scenario_adapter_calls": 8,
+  "wheel_module_bytes_match_source": true,
+  "README_and_reference_source_examples_compile": true,
+  "python": "3.12.14",
+  "scope": "Linux only; no remote CI or hardware validation",
+  "SPDX_license_metadata_verified": true
+}
